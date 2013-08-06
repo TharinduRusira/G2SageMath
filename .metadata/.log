@@ -1915,3 +1915,13 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/SageData/src/g
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2013-08-06 23:02:19.896
 !MESSAGE Resource '/SageData/src/gdrive2sage.py' does not exist.
+!SESSION 2013-08-06 23:02:32.063 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-08-06 23:17:42.772
+!MESSAGE Info: Rebuilding internal caches: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
