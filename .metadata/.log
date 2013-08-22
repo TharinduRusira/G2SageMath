@@ -4011,3 +4011,231 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-23 00:19:21.205
+!MESSAGE An exception occurred during push on URI git@github.com:TharinduRusira/G2SageMath: An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:194)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:295)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:306)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:152)
+	... 3 more
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 9 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 11 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:19:21.220
+!MESSAGE Can't connect to any repository: git@github.com:TharinduRusira/G2SageMath (An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host)
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-23 00:19:39.563
+!MESSAGE An exception occurred during push on URI git@github.com:TharinduRusira/G2SageMath: An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:194)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:295)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:306)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:152)
+	... 3 more
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 9 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 11 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:19:39.566
+!MESSAGE Can't connect to any repository: git@github.com:TharinduRusira/G2SageMath (An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host)
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-23 00:22:33.009
+!MESSAGE An exception occurred during push on URI git@github.com:TharinduRusira/G2SageMath: An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:194)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:295)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:306)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:152)
+	... 3 more
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 9 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 11 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:22:33.012
+!MESSAGE Can't connect to any repository: git@github.com:TharinduRusira/G2SageMath (An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host)
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:25:05.202
+!MESSAGE git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 1
+org.eclipse.core.runtime.CoreException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:102)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI$1.run(FetchOperationUI.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshFetchConnection.<init>(TransportGitSsh.java:248)
+	at org.eclipse.jgit.transport.TransportGitSsh.openFetch(TransportGitSsh.java:147)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:127)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:113)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1062)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:129)
+	at org.eclipse.egit.core.op.FetchOperation.run(FetchOperation.java:128)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:99)
+	... 2 more
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 11 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 13 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2013-08-23 00:25:05.203
+!MESSAGE git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 0
+org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshFetchConnection.<init>(TransportGitSsh.java:248)
+	at org.eclipse.jgit.transport.TransportGitSsh.openFetch(TransportGitSsh.java:147)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:127)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:113)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1062)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:129)
+	at org.eclipse.egit.core.op.FetchOperation.run(FetchOperation.java:128)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:99)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI$1.run(FetchOperationUI.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 11 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:25:05.205
+!MESSAGE git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 1
+org.eclipse.core.runtime.CoreException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:102)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI$1.run(FetchOperationUI.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshFetchConnection.<init>(TransportGitSsh.java:248)
+	at org.eclipse.jgit.transport.TransportGitSsh.openFetch(TransportGitSsh.java:147)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:127)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:113)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1062)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:129)
+	at org.eclipse.egit.core.op.FetchOperation.run(FetchOperation.java:128)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:99)
+	... 2 more
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 11 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 13 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2013-08-23 00:25:05.205
+!MESSAGE git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 0
+org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshFetchConnection.<init>(TransportGitSsh.java:248)
+	at org.eclipse.jgit.transport.TransportGitSsh.openFetch(TransportGitSsh.java:147)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:127)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:113)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1062)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:129)
+	at org.eclipse.egit.core.op.FetchOperation.run(FetchOperation.java:128)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:99)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI$1.run(FetchOperationUI.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 11 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-23 00:25:55.370
+!MESSAGE An exception occurred during push on URI git@github.com:TharinduRusira/G2SageMath: An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:194)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:295)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:306)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:152)
+	... 3 more
+Caused by: com.jcraft.jsch.JSchException: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:317)
+	at com.jcraft.jsch.Session.connect(Session.java:202)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 9 more
+Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.ProxySOCKS5.connect(ProxySOCKS5.java:76)
+	... 11 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:25:55.374
+!MESSAGE Can't connect to any repository: git@github.com:TharinduRusira/G2SageMath (An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host)

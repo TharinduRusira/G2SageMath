@@ -40,9 +40,9 @@ class LogIn:
         
     def login(self):
         # Set up a Flow object to be used for authentication.
-        FLOW = flow_from_clientsecrets(self.CLIENT_SECRETS,scope=['https://spreadsheets.google.com/feeds'],message=self.MISSING_CLIENT_SECRETS_MESSAGE)
+        FLOW = flow_from_clientsecrets(self.CLIENT_SECRETS,scope=['https://spreadsheets.google.com/feeds'],message=self.MISSING_CLIENT_SECRETS_MESSAGE,redirect_uri=self.REDIRECT_URI)
         
-        auth_url=FLOW.step1_get_authorize_url(redirect_uri=self.REDIRECT_URI)
+        auth_url=FLOW.step1_get_authorize_url()
         print "Go to following URL to get access code\n\n\n" + auth_url+ "\n\n"
         
         try:
