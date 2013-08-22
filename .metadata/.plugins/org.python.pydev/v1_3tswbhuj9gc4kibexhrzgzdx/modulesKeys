@@ -373,6 +373,7 @@ UpdateManager.GtkProgress|/usr/lib/python2.7/dist-packages/UpdateManager/GtkProg
 UpdateManager.HelpViewer|/usr/lib/python2.7/dist-packages/UpdateManager/HelpViewer.py
 UpdateManager.MetaReleaseGObject|/usr/lib/python2.7/dist-packages/UpdateManager/MetaReleaseGObject.py
 UpdateManager.ReleaseNotesViewer|/usr/lib/python2.7/dist-packages/UpdateManager/ReleaseNotesViewer.py
+UpdateManager.ReleaseNotesViewerWebkit|/usr/lib/python2.7/dist-packages/UpdateManager/ReleaseNotesViewerWebkit.py
 UpdateManager.SimpleGtk3builderApp|/usr/lib/python2.7/dist-packages/UpdateManager/SimpleGtk3builderApp.py
 UpdateManager.SimpleGtkbuilderApp|/usr/lib/python2.7/dist-packages/UpdateManager/SimpleGtkbuilderApp.py
 UpdateManager.UnitySupport|/usr/lib/python2.7/dist-packages/UpdateManager/UnitySupport.py
@@ -1549,6 +1550,7 @@ jockey.__init__|/usr/lib/python2.7/dist-packages/jockey/__init__.py
 jockey.backend|/usr/lib/python2.7/dist-packages/jockey/backend.py
 jockey.detection|/usr/lib/python2.7/dist-packages/jockey/detection.py
 jockey.handlers|/usr/lib/python2.7/dist-packages/jockey/handlers.py
+jockey.kerneldetection|/usr/lib/python2.7/dist-packages/jockey/kerneldetection.py
 jockey.oslib|/usr/lib/python2.7/dist-packages/jockey/oslib.py
 jockey.ui|/usr/lib/python2.7/dist-packages/jockey/ui.py
 jockey.xorg_driver|/usr/lib/python2.7/dist-packages/jockey/xorg_driver.py
@@ -1566,6 +1568,7 @@ keyring.cli|/usr/lib/python2.7/dist-packages/keyring/cli.py
 keyring.core|/usr/lib/python2.7/dist-packages/keyring/core.py
 keyring.getpassbackend|/usr/lib/python2.7/dist-packages/keyring/getpassbackend.py
 keyring.http|/usr/lib/python2.7/dist-packages/keyring/http.py
+keyring.py25compat|/usr/lib/python2.7/dist-packages/keyring/py25compat.py
 keyring.tests.__init__|/usr/lib/python2.7/dist-packages/keyring/tests/__init__.py
 keyring.tests.test_backend|/usr/lib/python2.7/dist-packages/keyring/tests/test_backend.py
 keyring.tests.test_cli|/usr/lib/python2.7/dist-packages/keyring/tests/test_cli.py
@@ -1573,6 +1576,8 @@ keyring.tests.test_core|/usr/lib/python2.7/dist-packages/keyring/tests/test_core
 keyring.tests.test_util|/usr/lib/python2.7/dist-packages/keyring/tests/test_util.py
 keyring.util.__init__|/usr/lib/python2.7/dist-packages/keyring/util/__init__.py
 keyring.util.escape|/usr/lib/python2.7/dist-packages/keyring/util/escape.py
+keyring.util.loc_compat|/usr/lib/python2.7/dist-packages/keyring/util/loc_compat.py
+keyring.util.platform|/usr/lib/python2.7/dist-packages/keyring/util/platform.py
 keyring.util.properties|/usr/lib/python2.7/dist-packages/keyring/util/properties.py
 keyword|/usr/lib/python2.7/keyword.py
 language_support_pkgs|/usr/lib/python2.7/dist-packages/language_support_pkgs.py
@@ -1923,6 +1928,22 @@ numbers|/usr/lib/python2.7/numbers.py
 numpy
 oauth.__init__|/usr/lib/python2.7/dist-packages/oauth/__init__.py
 oauth.oauth|/usr/lib/python2.7/dist-packages/oauth/oauth.py
+oauth2client.__init__|/usr/lib/python2.7/dist-packages/oauth2client/__init__.py
+oauth2client.anyjson|/usr/lib/python2.7/dist-packages/oauth2client/anyjson.py
+oauth2client.appengine|/usr/lib/python2.7/dist-packages/oauth2client/appengine.py
+oauth2client.client|/usr/lib/python2.7/dist-packages/oauth2client/client.py
+oauth2client.clientsecrets|/usr/lib/python2.7/dist-packages/oauth2client/clientsecrets.py
+oauth2client.crypt|/usr/lib/python2.7/dist-packages/oauth2client/crypt.py
+oauth2client.django_orm|/usr/lib/python2.7/dist-packages/oauth2client/django_orm.py
+oauth2client.file|/usr/lib/python2.7/dist-packages/oauth2client/file.py
+oauth2client.gce|/usr/lib/python2.7/dist-packages/oauth2client/gce.py
+oauth2client.keyring_storage|/usr/lib/python2.7/dist-packages/oauth2client/keyring_storage.py
+oauth2client.locked_file|/usr/lib/python2.7/dist-packages/oauth2client/locked_file.py
+oauth2client.multistore_file|/usr/lib/python2.7/dist-packages/oauth2client/multistore_file.py
+oauth2client.old_run|/usr/lib/python2.7/dist-packages/oauth2client/old_run.py
+oauth2client.tools|/usr/lib/python2.7/dist-packages/oauth2client/tools.py
+oauth2client.util|/usr/lib/python2.7/dist-packages/oauth2client/util.py
+oauth2client.xsrfutil|/usr/lib/python2.7/dist-packages/oauth2client/xsrfutil.py
 oneconf.__init__|/usr/lib/python2.7/dist-packages/oneconf/__init__.py
 oneconf.dbusconnect|/usr/lib/python2.7/dist-packages/oneconf/dbusconnect.py
 oneconf.directconnect|/usr/lib/python2.7/dist-packages/oneconf/directconnect.py
@@ -3521,6 +3542,7 @@ unittest.suite|/usr/lib/python2.7/unittest/suite.py
 unittest.util|/usr/lib/python2.7/unittest/util.py
 uno|/usr/lib/python2.7/dist-packages/uno.py
 unohelper|/usr/lib/python2.7/dist-packages/unohelper.py
+uritemplate.__init__|/usr/lib/python2.7/dist-packages/uritemplate/__init__.py
 urllib|/usr/lib/python2.7/urllib.py
 urllib2|/usr/lib/python2.7/urllib2.py
 urlparse|/usr/lib/python2.7/urlparse.py
