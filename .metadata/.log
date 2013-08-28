@@ -4361,3 +4361,93 @@ Caused by: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connec
 
 !ENTRY org.eclipse.egit.ui 4 0 2013-08-23 00:38:47.735
 !MESSAGE Can't connect to any repository: git@github.com:TharinduRusira/G2SageMath (An internal Exception occurred during push: git@github.com:TharinduRusira/G2SageMath: ProxySOCKS5: com.jcraft.jsch.JSchException: java.net.SocketException: Can't connect to SOCKS proxy:No route to host)
+!SESSION 2013-08-28 18:17:11.631 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-08-28 20:19:50.010
+!MESSAGE /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/glogin_8xe6.v1_indexcache (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/glogin_8xe6.v1_indexcache (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:160)
+	at org.python.pydev.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:120)
+	at org.python.pydev.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:112)
+	at org.python.pydev.core.cache.DiskCache.add(DiskCache.java:354)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.addAstInfo(AbstractAdditionalDependencyInfo.java:430)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalInfoWithBuild.addAstInfo(AbstractAdditionalInfoWithBuild.java:87)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.recreateCtxInsensitiveInfo(AnalysisBuilderRunnable.java:309)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:194)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-08-28 20:19:50.025
+!MESSAGE /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/run_9s2j.v1_indexcache (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/run_9s2j.v1_indexcache (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:160)
+	at org.python.pydev.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:120)
+	at org.python.pydev.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:112)
+	at org.python.pydev.core.cache.DiskCache.add(DiskCache.java:354)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.addAstInfo(AbstractAdditionalDependencyInfo.java:430)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalInfoWithBuild.addAstInfo(AbstractAdditionalInfoWithBuild.java:87)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.recreateCtxInsensitiveInfo(AnalysisBuilderRunnable.java:309)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:194)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-08-28 20:19:50.030
+!MESSAGE /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/Test_glogin_e0ua.v1_indexcache (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/Test_glogin_e0ua.v1_indexcache (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:160)
+	at org.python.pydev.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:120)
+	at org.python.pydev.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:112)
+	at org.python.pydev.core.cache.DiskCache.add(DiskCache.java:354)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.addAstInfo(AbstractAdditionalDependencyInfo.java:430)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalInfoWithBuild.addAstInfo(AbstractAdditionalInfoWithBuild.java:87)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.recreateCtxInsensitiveInfo(AnalysisBuilderRunnable.java:309)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:194)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface 2 0 2013-08-28 20:20:02.757
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-28 20:20:02.757
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,com.python.pydev.analysis.actions.PyGlobalsBrowserWorkbench),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyShowBrowser),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)

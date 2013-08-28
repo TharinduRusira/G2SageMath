@@ -24,3 +24,28 @@ executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",
 executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1377198904681
 executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1377198932355
 activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1377198937875
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701380943
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewOpen",1377701389021
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701389352
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/glogin_8xe6.v1_indexcache (No such file or directory)",1377701390014
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/run_9s2j.v1_indexcache (No such file or directory)",1377701390026
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/Test_glogin_e0ua.v1_indexcache (No such file or directory)",1377701390030
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701390032
+opened,view,org.python.pydev.debug,2.7.5.2013052819,"org.python.pydev.debug.pyunit.pyUnitView",1377701400923
+activated,view,org.python.pydev.debug,2.7.5.2013052819,"org.python.pydev.debug.pyunit.pyUnitView",1377701400963
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1377701402705
+activated,view,org.python.pydev.debug,2.7.5.2013052819,"org.python.pydev.debug.pyunit.pyUnitView",1377701402777
+activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1377701407849
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701412956
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701412978
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701413003
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Push",1377701416723
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701416736
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701417070
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701433120
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701436015
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701472630
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewAddToIndex",1377701487520
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701505333
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701507565
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1377701507590
