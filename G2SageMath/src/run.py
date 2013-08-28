@@ -7,7 +7,8 @@ def main(argv):
     l=LogIn()
     try:
         argv = l.FLAGS(argv)
-        l.login()
+        x=l.login()
+        l.showDrive(x)
         
     except gflags.FlagsError, e:
         print '%s\\nUsage: %s ARGS\\n%s' % (e, argv[0], l.FLAGS)
