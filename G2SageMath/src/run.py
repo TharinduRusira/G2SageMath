@@ -6,9 +6,10 @@ def main(argv):
     # Let the gflags module process the command-line arguments
     l=LogIn()
     try:
-        argv = l.FLAGS(argv)
+        argv = l.FLAGS(argv)        
         x=l.login()
-        l.showDrive(x)
+        y= l.showDrive(x)
+        l.userChoice(y)
         
     except gflags.FlagsError, e:
         print '%s\\nUsage: %s ARGS\\n%s' % (e, argv[0], l.FLAGS)

@@ -37,7 +37,7 @@ class LogIn:
     def __init__(self, redirect_uri='urn:ietf:wg:oauth:2.0:oob'):
         print '\n\nG2SageMath\nIntegrating Google spreadsheets to Sage\n' 
         print 'Author: M.P. Tharindu Rusira Kumara (tharindurusira@gmail.com)\n\n'
-        self.REDIRECT_URI = redirect_uri
+        #self.REDIRECT_URI = redirect_uri
         
         
     def login(self):
@@ -59,7 +59,7 @@ class LogIn:
             print "Check user name/password and retry..."
             sys.exit(-1)
         except Exception as e:
-            print "Unknown error..."+str(e)
+            print "ERROR..."+str(e)
             sys.exit(-1)
 
         
@@ -101,27 +101,35 @@ class LogIn:
                 #Shall we add file names to a list or something? For future reference
                 name_list.append(name) 
                 i = i + 1
-                       
+            
+            return [spreadsheetfeed,name_list]       
         except Exception as e:
-                print "Error occurred while fetching spreadsheets..."+e
-                sys.exit(-1)
-
-        if(spreadsheetfeed is not None):
+            print "Error occurred while fetching spreadsheets..."+e
+            sys.exit(-1)
+                
+            
+    def userChoice(self,ssdata):
+        if(ssdata != None):
+            ssf=ssdata[0]
+            ss_name_list=ssdata[1]
             
             choice= raw_input("Number of the file from the above list: ")
-            
             # a little sanity check
             try:
                 choice=int(choice,10)
-                sheet= name_list[choice]
-                choice_key=spreadsheetfeed.entry[choice].id.text.rsplit('/',1)[1]
-                #print choice_key
+                sheet= ss_name_list[choice]
+                choice_key=ssf.entry[choice].id.text.rsplit('/',1)[1]
+                print choice_key
             except ValueError:
                 print "Invalid input"
             except Exception as e:
                 print e
-            
                 
+            return True
+        else:
+            sys.exit()
+            
+                       
             #Now get the list of worksheets in the given spreadsheets
 #             print "\nWorksheets in the Spreadsheet\n"
 #             try:

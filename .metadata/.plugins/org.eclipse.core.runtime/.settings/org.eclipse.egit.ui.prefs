@@ -1,4 +1,9 @@
-StagingView_SyncWithSelection=false
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Initial commit II</message>\n</messages>
+//BranchProjectTracker__/host/Semester5/SEP/Project/code/.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="master"/>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>logIn() in glogin.Login method is complete. (Using progammaticLogin())&\#x0A;&\#x0A;showDrive(client) in glogin.Login now reads the user&apos;s drive and fetch a&\#x0A;file stream. User can then specify a file. &\#x0A;To-do\: Send a query with the key of the specified key</message>\n<message>There are compatibility issues with OAuth 2.0 and gdata-python&\#x0A;spreadsheets service. ProgrammaticLogin() is used to log in.</message>\n<message>added instructions to README</message>\n<message>Resolved a warning</message>\n<message>\=\=\=\=Initial code commit\=\=\=\=&\#x0A;Google authentication is working.&\#x0A;Respective test class is under construction</message>\n<message>Initial commit II</message>\n</messages>
 eclipse.preferences.version=1
 merge_mode=0
+org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog_ADVANCED_MODE=true
+resourcehistory_compare_mode=true
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=312,684
+resourcehistory_show_all_branches=true
