@@ -9,7 +9,8 @@ def main(argv):
         argv = l.FLAGS(argv)        
         x=l.login()
         y= l.showDrive(x)
-        l.userChoice(y)
+        z=l.userChoice(y)
+        l.readWorksheets(z)
         
     except gflags.FlagsError, e:
         print '%s\\nUsage: %s ARGS\\n%s' % (e, argv[0], l.FLAGS)
