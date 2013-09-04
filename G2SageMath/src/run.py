@@ -1,4 +1,4 @@
-from glogin import LogIn
+from g2sagemathlogin import LogIn
 import sys
 import gflags
 
@@ -10,7 +10,8 @@ def main(argv):
         x=l.login()
         y= l.showDrive(x)
         z=l.userChoice(y)
-        l.readWorksheets(z)
+        final_details = l.readWorksheets(z)
+        print final_details
         
     except gflags.FlagsError, e:
         print '%s\\nUsage: %s ARGS\\n%s' % (e, argv[0], l.FLAGS)
