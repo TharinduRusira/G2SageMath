@@ -1,5 +1,5 @@
 MODULES_MANAGER_V2
-Test_glogin|/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_glogin.py
+Test_g2sagemathlogin|/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathlogin.py
 apiclient.__init__|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/__init__.py
 apiclient.discovery|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/discovery.py
 apiclient.errors|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/errors.py
@@ -8,10 +8,10 @@ apiclient.mimeparse|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/mi
 apiclient.model|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/model.py
 apiclient.push|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/push.py
 apiclient.schema|/host/Semester5/SEP/Project/code/G2SageMath/src/apiclient/schema.py
-dataloader|/host/Semester5/SEP/Project/code/G2SageMath/src/dataloader.py
+g2sagemathdata|/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathdata.py
+g2sagemathlogin|/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathlogin.py
 gflags|/host/Semester5/SEP/Project/code/G2SageMath/src/gflags.py
 gflags_validators|/host/Semester5/SEP/Project/code/G2SageMath/src/gflags_validators.py
-glogin|/host/Semester5/SEP/Project/code/G2SageMath/src/glogin.py
 httplib2.__init__|/host/Semester5/SEP/Project/code/G2SageMath/src/httplib2/__init__.py
 httplib2.iri2uri|/host/Semester5/SEP/Project/code/G2SageMath/src/httplib2/iri2uri.py
 httplib2.socks|/host/Semester5/SEP/Project/code/G2SageMath/src/httplib2/socks.py
