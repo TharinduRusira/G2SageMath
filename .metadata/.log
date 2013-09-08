@@ -5071,3 +5071,57 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-09-08 07:53:37.449
+!MESSAGE /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:160)
+	at org.python.pydev.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:120)
+	at org.python.pydev.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:112)
+	at org.python.pydev.core.cache.DiskCache.add(DiskCache.java:354)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.addAstInfo(AbstractAdditionalDependencyInfo.java:430)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalInfoWithBuild.addAstInfo(AbstractAdditionalInfoWithBuild.java:87)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.recreateCtxInsensitiveInfo(AnalysisBuilderRunnable.java:309)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:194)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-09-08 07:53:57.636
+!MESSAGE /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:160)
+	at org.python.pydev.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:120)
+	at org.python.pydev.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:112)
+	at org.python.pydev.core.cache.DiskCache.add(DiskCache.java:354)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.addAstInfo(AbstractAdditionalDependencyInfo.java:430)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalInfoWithBuild.addAstInfo(AbstractAdditionalInfoWithBuild.java:87)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.recreateCtxInsensitiveInfo(AnalysisBuilderRunnable.java:309)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:194)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-09-08 07:54:07.767
+!MESSAGE /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:160)
+	at org.python.pydev.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:120)
+	at org.python.pydev.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:112)
+	at org.python.pydev.core.cache.DiskCache.add(DiskCache.java:354)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.addAstInfo(AbstractAdditionalDependencyInfo.java:430)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalInfoWithBuild.addAstInfo(AbstractAdditionalInfoWithBuild.java:87)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.recreateCtxInsensitiveInfo(AnalysisBuilderRunnable.java:309)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:194)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

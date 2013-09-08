@@ -16,6 +16,7 @@ import sys
 from gdata.client import BadAuthentication
 
 logging.basicConfig()
+import gdata.docs.service
 
 
 
@@ -45,14 +46,20 @@ class LogIn:
         # user name and password on the terminal itself
         
         client = gdata.spreadsheet.service.SpreadsheetsService()
+        doc_client =gdata.docs.service.DocsService()
         client.ssl = True
         client_email = raw_input("Gmail address: ")
         client.email = client_email
-        client.password = getpass.getpass("Password: ")
+        doc_client.email=client_email
+        client_pwd = getpass.getpass("Password: ")
+        client.password = client_pwd
+        doc_client.password=client_pwd
+        
         
         try:
             client.ProgrammaticLogin(captcha_token=None, captcha_response=None)
-            return [client]
+            doc_client.ProgrammaticLogin()
+            return [client,doc_client]
         except BadAuthentication:
             print "Check user name/password and retry..."
             sys.exit(-1)
@@ -91,8 +98,11 @@ class LogIn:
         '''
             data_arg is a list where data_arg[0] is of the type gdata.spreadsheet.service.SpreadsheetsService()
             returned from login() method 
+            
+            data_arg[1] --> doc_client
         '''
         client= data_arg[0]
+        doc_client= data_arg[1]
         try:
             if isinstance(client,gdata.spreadsheet.service.SpreadsheetsService):
                 #spreadsheetfeed = client.GetSpreadsheetsFeed(key=None, query=None, visibility='private', projection='full')
@@ -108,7 +118,7 @@ class LogIn:
                     name_list.append(name) 
                     i = i + 1
             
-                return [client,spreadsheetfeed,name_list]      
+                return [client,spreadsheetfeed,name_list,doc_client]      
              
         except:
             print "Error occurred while fetching spreadsheets..."
@@ -122,6 +132,7 @@ class LogIn:
             passed from above methods
             ssdata_arg[1] is the SpreadSheetFeed
             ssdata_arg[2] is the list of spreadsheet names
+            ssdata_arg[3] doc_client
         
         '''
         
@@ -130,6 +141,7 @@ class LogIn:
             client= ssdata_arg[0]
             ssf=ssdata_arg[1]
             ss_name_list=ssdata_arg[2]
+            doc_client=ssdata_arg[3]
             
             choice= raw_input("Number of the file from the above list: ")
             # a little sanity check
@@ -138,7 +150,7 @@ class LogIn:
                 sheet= ss_name_list[choice]
                 choice_key=ssf.entry[choice].id.text.rsplit('/',1)[1]
                 #print choice_key
-                return [client,ssf,choice_key]
+                return [client,ssf,choice_key,doc_client]
             except ValueError:
                 print "Invalid input"
                 sys.exit(-1)
@@ -150,27 +162,32 @@ class LogIn:
     def readWorksheets(self,data_arg):
         '''
             data_arg[0] is a client object
-            data_Arg[1] is the SpreadSheetFeed
-            data_Arg[2] is the spreadsheet choice made by the user
+            data_arg[1] is the SpreadSheetFeed
+            data_arg[2] is the spreadsheet choice made by the user
+            data_arg[3] doc_client
         '''
         
         client= data_arg[0]
         spreadsheetfeed=data_arg[1]
         sskey=data_arg[2]
+        doc_client= data_arg[3]
         
         print "\nWorksheets in the Spreadsheet\n\n"
         
-        j=0
+        j=1
         try:
             worksheetfeed= client.GetWorksheetsFeed(sskey) 
+            
             for worksheet in worksheetfeed.entry:
                 print "["+str(j)+"] "+ worksheet.title.text
                 j=j+1
-                
+             
+           
             ws_choice= raw_input("Number of the file from the above list: ")
-            output= [client,spreadsheetfeed,sskey,ws_choice]
+            ws_choice=int(ws_choice)-1 # worksheets start with 0            
+            output= [client,spreadsheetfeed,sskey,ws_choice,doc_client]
             return output
-                      
+                          
         except:
             print "Error occurred while fetching worksheets..."
             sys.exit(-1)

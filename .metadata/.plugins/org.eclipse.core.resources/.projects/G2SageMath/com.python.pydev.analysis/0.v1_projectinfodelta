@@ -1,1 +1,15 @@
-DELSTRg2sagemathdata
+INSTUPg2sagemathlogin
+/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathlogin.py
+INFOS:&&1|1|2|0&&3|3|2|1&&3|4|2|1&&3|5|2|1&&3|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1
+REDIRECT_URI=6
+CLIENT_SECRETS=4
+MISSING_CLIENT_SECRETS_MESSAGE=5
+oauth2Login=9
+LogIn=1
+FLAGS=3
+__init__=7
+showDrive=10
+userChoice=11
+readWorksheets=12
+g2sagemathlogin=2
+login=8
