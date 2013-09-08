@@ -48,13 +48,12 @@ class LogIn:
         client = gdata.spreadsheet.service.SpreadsheetsService()
         doc_client =gdata.docs.service.DocsService()
         client.ssl = True
-        client_email = raw_input("Gmail address: ")
+        client_email =raw_input("Gmail address: ")
         client.email = client_email
         doc_client.email=client_email
         client_pwd = getpass.getpass("Password: ")
         client.password = client_pwd
         doc_client.password=client_pwd
-        
         
         try:
             client.ProgrammaticLogin(captcha_token=None, captcha_response=None)
@@ -150,7 +149,7 @@ class LogIn:
                 sheet= ss_name_list[choice]
                 choice_key=ssf.entry[choice].id.text.rsplit('/',1)[1]
                 #print choice_key
-                return [client,ssf,choice_key,doc_client]
+                return [client,ssf,choice_key,doc_client,choice]
             except ValueError:
                 print "Invalid input"
                 sys.exit(-1)
@@ -165,12 +164,14 @@ class LogIn:
             data_arg[1] is the SpreadSheetFeed
             data_arg[2] is the spreadsheet choice made by the user
             data_arg[3] doc_client
+            data_arg[4] list index of the spreadsheet in spreadsheetfeed
         '''
         
         client= data_arg[0]
         spreadsheetfeed=data_arg[1]
         sskey=data_arg[2]
         doc_client= data_arg[3]
+        sschoice=data_arg[4]
         
         print "\nWorksheets in the Spreadsheet\n\n"
         
@@ -185,7 +186,7 @@ class LogIn:
            
             ws_choice= raw_input("Number of the file from the above list: ")
             ws_choice=int(ws_choice)-1 # worksheets start with 0            
-            output= [client,spreadsheetfeed,sskey,ws_choice,doc_client]
+            output= [client,spreadsheetfeed,sskey,ws_choice,doc_client,sschoice]
             return output
                           
         except:

@@ -1,151 +1,76 @@
 what,kind,bundleId,bundleVersion,description,time
-started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1378393193889
-started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1378393193889
-started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1378393193889
-started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1378393193889
-started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1378393193889
-started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1378393193889
-started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1378393193889
-started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1378393193889
-started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1378393193889
-started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1378393193889
-started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1378393193889
-started,bundle,org.eclipse.wb.discovery.core,1.3.0.r37x201202052340,"org.eclipse.wb.discovery.core",1378393193889
-started,bundle,com.python.pydev,2.7.5.2013052819,"com.python.pydev",1378393193889
-started,bundle,com.python.pydev.analysis,2.7.5.2013052819,"com.python.pydev.analysis",1378393193889
-started,bundle,com.python.pydev.codecompletion,2.7.5.2013052819,"com.python.pydev.codecompletion",1378393193889
-started,bundle,com.python.pydev.refactoring,2.7.5.2013052819,"com.python.pydev.refactoring",1378393193889
-started,bundle,org.eclipse.mylyn.bugzilla.core,3.8.4.v20130429-0100,"org.eclipse.mylyn.bugzilla.core",1378393193889
-started,bundle,org.eclipse.mylyn.bugzilla.ui,3.8.4.v20130429-0100,"org.eclipse.mylyn.bugzilla.ui",1378393193889
-started,bundle,org.eclipse.mylyn.commons.core,3.8.4.v20130429-0100,"org.eclipse.mylyn.commons.core",1378393193889
-started,bundle,org.eclipse.mylyn.commons.net,3.8.4.v20130429-0100,"org.eclipse.mylyn.commons.net",1378393193889
-started,bundle,org.eclipse.mylyn.commons.notifications.core,1.0.4.v20130429-0100,"org.eclipse.mylyn.commons.notifications.core",1378393193889
-started,bundle,org.eclipse.mylyn.commons.notifications.feed,1.0.4.v20130429-0100,"org.eclipse.mylyn.commons.notifications.feed",1378393193889
-started,bundle,org.eclipse.mylyn.commons.ui,3.8.4.v20130429-0100,"org.eclipse.mylyn.commons.ui",1378393193889
-started,bundle,org.eclipse.mylyn.commons.workbench,3.8.4.v20130429-0100,"org.eclipse.mylyn.commons.workbench",1378393193889
-started,bundle,org.eclipse.mylyn.context.core,3.8.4.v20130429-0100,"org.eclipse.mylyn.context.core",1378393193889
-started,bundle,org.eclipse.mylyn.context.tasks.ui,3.8.4.v20130429-0100,"org.eclipse.mylyn.context.tasks.ui",1378393193889
-started,bundle,org.eclipse.mylyn.monitor.ui,3.8.4.v20130429-0100,"org.eclipse.mylyn.monitor.ui",1378393193889
-started,bundle,org.eclipse.mylyn.tasks.ui,3.8.4.v20130429-0100,"org.eclipse.mylyn.tasks.ui",1378393193889
-started,bundle,org.python.pydev,2.7.5.2013052819,"org.python.pydev",1378393193889
-started,bundle,org.python.pydev.core,2.7.5.2013052819,"org.python.pydev.core",1378393193889
-started,bundle,org.python.pydev.debug,2.7.5.2013052819,"org.python.pydev.debug",1378393193889
-started,bundle,org.python.pydev.django,2.7.5.2013052819,"org.python.pydev.django",1378393193889
-started,bundle,org.python.pydev.jython,2.7.5.2013052819,"org.python.pydev.jython",1378393193889
-started,bundle,org.python.pydev.parser,2.7.5.2013052819,"org.python.pydev.parser",1378393193889
-started,bundle,org.python.pydev.refactoring,2.7.5.2013052819,"org.python.pydev.refactoring",1378393193889
-started,bundle,org.python.pydev.shared_core,2.7.5.2013052819,"org.python.pydev.shared_core",1378393193889
-started,bundle,org.python.pydev.shared_interactive_console,2.7.5.2013052819,"org.python.pydev.shared_interactive_console",1378393193889
-started,bundle,org.python.pydev.shared_ui,2.7.5.2013052819,"org.python.pydev.shared_ui",1378393193889
-started,bundle,com.google.gdt.eclipse.apiclientlib,3.3.0.v201307162142-rel-r37,"com.google.gdt.eclipse.apiclientlib",1378393193889
-started,bundle,com.google.gdt.eclipse.core,3.3.0.v201307162142-rel-r37,"com.google.gdt.eclipse.core",1378393193889
-started,bundle,com.google.gdt.eclipse.login,3.3.0.v201307162142-rel-r37,"com.google.gdt.eclipse.login",1378393193889
-started,bundle,com.google.gdt.eclipse.suite.ext,3.3.0.v201307162142-rel-r37,"com.google.gdt.eclipse.suite.ext",1378393193889
-os,sysinfo,,,"linux",1378393193893
-arch,sysinfo,,,"x86",1378393193893
-ws,sysinfo,,,"gtk",1378393193893
-locale,sysinfo,,,"en_US",1378393193893
-processors,sysinfo,,,"4",1378393193893
-java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1378393193893
-java.runtime.version,sysinfo,,,"1.6.0_27-b27",1378393193893
-java.specification.name,sysinfo,,,"Java Platform API Specification",1378393193893
-java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1378393193893
-java.specification.version,sysinfo,,,"1.6",1378393193893
-java.vendor,sysinfo,,,"Sun Microsystems Inc.",1378393193893
-java.version,sysinfo,,,"1.6.0_27",1378393193893
-java.vm.info,sysinfo,,,"mixed mode, sharing",1378393193893
-java.vm.name,sysinfo,,,"OpenJDK Client VM",1378393193893
-java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1378393193893
-java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1378393193893
-java.vm.specification.version,sysinfo,,,"1.0",1378393193893
-java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1378393193893
-java.vm.version,sysinfo,,,"20.0-b12",1378393193893
-started,bundle,org.eclipse.m2e.usagedata,1.0.200.20111228-1245,"org.eclipse.m2e.usagedata",1378393193898
-started,bundle,org.eclipse.wb.discovery.ui,1.3.0.r37x201202052340,"org.eclipse.wb.discovery.ui",1378393194656
-started,bundle,org.eclipse.mylyn.team.ui,3.8.4.v20130429-0100,"org.eclipse.mylyn.team.ui",1378393194663
-started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1378393194746
-started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1378393194746
-started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1378393194793
-started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1378393194838
-started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1378393194894
-started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1378393196130
-started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1378393196214
-started,bundle,com.google.gdt.eclipse.managedapis,3.3.0.v201307162142-rel-r37,"com.google.gdt.eclipse.managedapis",1378393196477
-started,bundle,org.eclipse.jgit,1.3.0.201202151440-r,"org.eclipse.jgit",1378393196589
-started,bundle,org.eclipse.egit.core,1.3.0.201202151440-r,"org.eclipse.egit.core",1378393197004
-started,bundle,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui",1378393197064
-opened,view,org.python.pydev,2.7.5.2013052819,"org.python.pydev.navigator.view",1378393197099
-activated,view,org.python.pydev,2.7.5.2013052819,"org.python.pydev.navigator.view",1378393197216
-started,bundle,org.eclipse.cdt.make.core,7.1.2.201202111925,"org.eclipse.cdt.make.core",1378393197483
-started,bundle,org.eclipse.cdt.managedbuilder.core,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.core",1378393197589
-started,bundle,org.eclipse.cdt.core,5.3.2.201202111925,"org.eclipse.cdt.core",1378393197661
-started,bundle,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui",1378393197864
-started,bundle,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui",1378393197869
-opened,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378393199822
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378393199868
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378393202561
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378393474632
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378393477123
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378393920818
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378393924366
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378406555457
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378406563350
-opened,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378406566915
-activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378406566967
-started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1378406571336
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378406572248
-started,bundle,org.eclipse.egit.mylyn.ui,1.3.0.201202151440-r,"org.eclipse.egit.mylyn.ui",1378406577512
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378406577789
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378406577824
-executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1378406613073
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378406613089
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378605897929
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378605902914
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378605904647
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606205818
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378606207545
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378606211885
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378606216646
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606225034
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606271035
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606273326
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606342792
-activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378606344302
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606377754
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606538621
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606550447
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606567293
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606569780
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606817593
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606833580
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606835991
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606836015
-executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1378606985604
-executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1378606986222
-executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1378606991255
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606991403
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606993647
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378606998136
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378606998149
-executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378607011361
-executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378607016425
-error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378607017449
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607025282
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378607027657
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607027668
-executed,command,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.actions.uncomment",1378607034645
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607037159
-error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378607037636
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607044518
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607044601
-error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378607047767
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607047776
-executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1378607047815
-activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378607058360
-activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378607062089
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607067484
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607069149
-deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607069176
-executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1378607070969
-executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1378607076740
-activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378607076901
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378610843330
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378611655860
+activated,perspective,org.python.pydev,2.7.5.2013052819,"org.python.pydev.ui.PythonPerspective",1378611696734
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378611696747
+executed,command,,,"org.python.pydev.debug.ui.launchShortcut.python.debug",1378611707234
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378611707584
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378611714609
+activated,perspective,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugPerspective",1378611716731
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378611716796
+opened,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.VariableView",1378611716989
+opened,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.BreakpointView",1378611717120
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378611717142
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.VariableView",1378611725928
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378611935897
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1378612013668
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Terminate",1378612015516
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612017876
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612022032
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612481214
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1378612517830
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378612519855
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1378612524869
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378612541996
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378612566744
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1378612568046
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1378612570267
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612585814
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612593443
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378612597712
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1378612609548
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378612613213
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612614776
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378612620682
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1378612626102
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1378612630750
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1378612640734
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378612646001
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1378612648710
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1378612660557
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378612660565
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612661717
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378612664275
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612706463
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612708014
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378612719429
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612722299
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1378612723606
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378612725691
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612734351
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612746984
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612775526
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.VariableView",1378612778192
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1378612779958
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612783223
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612802586
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612840398
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1378612853557
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1378612856676
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378612859735
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1378612875753
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612890927
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378612906382
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1378612910674
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathdata_dnoz.v1_indexcache (No such file or directory)",1378612911922
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1378612915986
+activated,perspective,org.python.pydev,2.7.5.2013052819,"org.python.pydev.ui.PythonPerspective",1378612933036
+activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378612935872
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612936985
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378612938284
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378612947599
+error,log,,,"/host/Semester5/SEP/Project/code/.metadata/.plugins/org.eclipse.core.resources/.projects/G2SageMath/com.python.pydev.analysis/v1_indexcache/g2sagemathlogin_2ou8.v1_indexcache (No such file or directory)",1378612953613
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378612954030
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378612954956
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1378612957618
+activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378612959846
