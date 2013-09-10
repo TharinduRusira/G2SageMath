@@ -5167,3 +5167,9 @@ Caused by: org.eclipse.jgit.errors.CheckoutConflictException: Checkout conflict 
 
 !ENTRY org.eclipse.team.core 4 0 2013-09-10 23:56:42.574
 !MESSAGE Merge of revisions d4e57c532abc0a3e5d560ab25e9ba3d56c5e7bbf, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-11 00:03:34.410
+!MESSAGE Merge of revisions a8d4b9f63ef2fc556029ab9ac1e2e3bda40dc5e5, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.team.core 4 0 2013-09-11 00:03:34.410
+!MESSAGE Merge of revisions a8d4b9f63ef2fc556029ab9ac1e2e3bda40dc5e5, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
