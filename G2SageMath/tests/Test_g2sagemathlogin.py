@@ -14,14 +14,14 @@ class LoginTest(unittest.TestCase):
     # if these are declared to be returned from another test case, -
     # - succeeding tests will depend on the previous tests
     # otherwise login will be needed for every other test case
-    
-    
-    def setUp(self):
+        
+    @classmethod
+    def setUpClass(self):
         self.l1=g2sagemathlogin.LogIn()
         self.c=self.l1.login()
         self.ss_client = self.c[0]
         self.doc_client=self.c[1]
-        
+           
     
     '''
     Test id= 1
@@ -36,6 +36,7 @@ class LoginTest(unittest.TestCase):
     '''
     
     def test_login_output0(self):
+        
         try:
             self.assertEqual(str(type(self.ss_client)),"<class 'gdata.spreadsheet.service.SpreadsheetsService'>") 
         except:
@@ -81,7 +82,7 @@ class LoginTest(unittest.TestCase):
         
         Expected result= a value of type "gdata.spreadsheet.service.SpreadsheetsService"
     '''
-            
+    @unittest.skip("not implemented")      
     def test_oauth2login(self):
         pass
       
@@ -158,7 +159,7 @@ class LoginTest(unittest.TestCase):
             out_list=self.l1.showDrive([self.ss_client])
             self.assertEqual(type(out_list[2]),type([]))
         except:
-            self.assertRaise(SystemExit)
+            self.assertRaises(SystemExit)
              
        
     '''
@@ -171,7 +172,7 @@ class LoginTest(unittest.TestCase):
          
         Expected result= 
     '''
-     
+    @unittest.skip("not implemented")
     def test_userchoice(self):
         pass
  
@@ -180,8 +181,8 @@ class LoginTest(unittest.TestCase):
 
 
 
-def main(self):
-    test1= LoginTest()
+# def main(self):
+#     test1= LoginTest()
 
 
 if __name__ == "__main__":
