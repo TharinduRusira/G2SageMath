@@ -3,9 +3,7 @@ Created on Sep 4, 2013
 
 @author: tharindurusira
 '''
-import os
 from sys import platform as _userplatform
-import tempfile
 
 class DataHandler(object):
     '''
@@ -68,9 +66,7 @@ class DataHandler(object):
             elif _userplatform == 'win32':
                 #download to another location
                 pass
-                 
-                # make an HTTP request and download the file to
-                client.Download()
+
              
         else:
             print "Error in arguments"
