@@ -5071,3 +5071,35 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-10 23:44:53.086
+!MESSAGE An internal error occurred during: "Merging with refs/heads/tharindu_downloadCSV".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jgit.dircache.DirCacheCheckout.processEntry(DirCacheCheckout.java:682)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.preScanTwoTrees(DirCacheCheckout.java:246)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:395)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:381)
+	at org.eclipse.jgit.api.MergeCommand.call(MergeCommand.java:185)
+	at org.eclipse.egit.core.op.MergeOperation$1.run(MergeOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.MergeOperation.execute(MergeOperation.java:142)
+	at org.eclipse.egit.ui.internal.repository.tree.command.MergeCommand$1.run(MergeCommand.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-09-10 23:44:53.088
+!MESSAGE An internal error occurred during: "Merging with refs/heads/tharindu_downloadCSV".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jgit.dircache.DirCacheCheckout.processEntry(DirCacheCheckout.java:682)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.preScanTwoTrees(DirCacheCheckout.java:246)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:395)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:381)
+	at org.eclipse.jgit.api.MergeCommand.call(MergeCommand.java:185)
+	at org.eclipse.egit.core.op.MergeOperation$1.run(MergeOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.MergeOperation.execute(MergeOperation.java:142)
+	at org.eclipse.egit.ui.internal.repository.tree.command.MergeCommand$1.run(MergeCommand.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
