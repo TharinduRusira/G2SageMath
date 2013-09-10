@@ -5103,3 +5103,61 @@ java.lang.NullPointerException
 	at org.eclipse.egit.core.op.MergeOperation.execute(MergeOperation.java:142)
 	at org.eclipse.egit.ui.internal.repository.tree.command.MergeCommand$1.run(MergeCommand.java:96)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-10 23:47:02.201
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.team.core 4 0 2013-09-10 23:47:02.201
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-10 23:47:54.800
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.team.core 4 0 2013-09-10 23:47:54.802
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-10 23:48:25.548
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.team.core 4 0 2013-09-10 23:48:25.549
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-10 23:53:29.872
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.team.core 4 0 2013-09-10 23:53:29.874
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.egit.core 4 0 2013-09-10 23:54:46.414
+!MESSAGE Checkout conflict with files: 
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Checkout conflict with files: 
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+	at org.eclipse.jgit.api.RebaseCommand.call(RebaseCommand.java:284)
+	at org.eclipse.egit.core.op.RebaseOperation$1.run(RebaseOperation.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.RebaseOperation.execute(RebaseOperation.java:119)
+	at org.eclipse.egit.ui.internal.rebase.RebaseHelper$1.run(RebaseHelper.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.CheckoutConflictException: Checkout conflict with files: 
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:401)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:381)
+	at org.eclipse.jgit.api.RebaseCommand.checkoutCommit(RebaseCommand.java:789)
+	at org.eclipse.jgit.api.RebaseCommand.initFilesAndRewind(RebaseCommand.java:603)
+	at org.eclipse.jgit.api.RebaseCommand.call(RebaseCommand.java:214)
+	... 6 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-09-10 23:55:55.031
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 
+
+!ENTRY org.eclipse.team.core 4 0 2013-09-10 23:55:55.032
+!MESSAGE Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. 

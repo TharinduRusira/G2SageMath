@@ -49,3 +49,103 @@ deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",137883689
 error,log,,,"An internal error occurred during: ""Merging with refs/heads/tharindu_downloadCSV"".",1378836893087
 error,log,,,"An internal error occurred during: ""Merging with refs/heads/tharindu_downloadCSV"".",1378836893088
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836905304
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.SimpleFetch",1378836924772
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836925118
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836931911
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836932014
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836934738
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836947102
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836949090
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836949154
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1378836979187
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836979205
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836979552
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836980683
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836989027
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836989039
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378836989069
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Fetch",1378837012322
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837012338
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837018559
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Merge",1378837022134
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837022153
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837022201
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837022201
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837022301
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837024010
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.SimpleFetch",1378837035862
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837036211
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837043383
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837043494
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837045655
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.SimplePush",1378837049748
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837050098
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837058978
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837059157
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837062143
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837071155
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Merge",1378837074670
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837074704
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837074800
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837074802
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837074959
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837082237
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837086841
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Merge",1378837105426
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837105458
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837105549
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837105549
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837105683
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1378837112533
+opened,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1378837113169
+activated,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1378837113262
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837113287
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837116468
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837116633
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837118562
+closed,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1378837118617
+activated,view,org.python.pydev.debug,2.7.5.2013052819,"org.python.pydev.debug.pyunit.pyUnitView",1378837125100
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378837125295
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837146495
+activated,view,org.python.pydev.debug,2.7.5.2013052819,"org.python.pydev.debug.pyunit.pyUnitView",1378837148017
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837152703
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837156957
+opened,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837159605
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837159623
+executed,command,,,"org.python.pydev.debug.ui.launchShortcut.python.run",1378837165045
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378837165656
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837179455
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837181601
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378837185928
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837198135
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837343048
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837390295
+activated,editor,org.python.pydev,2.7.5.2013052819,"org.python.pydev.editor.PythonEditor",1378837396177
+activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1378837403640
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Merge",1378837409757
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837409873
+error,log,,,"Merge of revisions 222dbd5074ecc47a5acb7b1ca1473aebcbae35f2, b19dbb852876755626fd2378cb9691aafba8b5a1 with base c95479ae7bef488374fe8d76ec83efcc8a176811 using strategy resolve resulted in: Failed. ",1378837409874
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837409940
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837436063
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewOpen",1378837438668
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837439003
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837457588
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.CheckoutCommand",1378837470293
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837470673
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837476501
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewOpen",1378837478259
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837478596
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837479254
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewRebase",1378837485541
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837485907
+error,log,,,"Checkout conflict with files: \n.metadata/.log\n.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources\n.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv",1378837486415
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837491657
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837500365
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837502252
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837502275
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1378837513033
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837513045
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewOpen",1378837518066
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837518394
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837535896
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378837551176
