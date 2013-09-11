@@ -22,8 +22,7 @@ import gdata.docs.service
 
 class LogIn:
     '''
-        This module will provide functions to login, search documents and select a spreadsheet
-        
+        This module will provide functions to login, search documents and select a spreadsheet 
     '''
 
     # OAuth 2.0 variables
@@ -56,15 +55,18 @@ class LogIn:
         doc_client.password=client_pwd
         
         try:
-            client.ProgrammaticLogin(captcha_token=None, captcha_response=None)
+            client.ProgrammaticLogin()
             doc_client.ProgrammaticLogin()
             return [client,doc_client]
         except BadAuthentication:
             print "Check user name/password and retry..."
-            sys.exit(-1)
-        except:
-            print "ERROR..."
-            sys.exit(-1)
+            sys.exit(1)
+        except Exception as e:
+            if(str(e)=="[Errno 113] No route to host"):
+                print "Network ERROR. Check your Internet connection...\n"
+            else:
+                print "Unknown ERROR...\n"
+            sys.exit(2)
  
          
     def oauth2Login(self):
@@ -106,7 +108,6 @@ class LogIn:
             if isinstance(client,gdata.spreadsheet.service.SpreadsheetsService):
                 #spreadsheetfeed = client.GetSpreadsheetsFeed(key=None, query=None, visibility='private', projection='full')
                 spreadsheetfeed = client.GetFeed('http://spreadsheets.google.com/feeds/spreadsheets/private/full') 
-                print type(spreadsheetfeed)
                 print "\n List of spreadsheets"
                 i = 0
                 name_list=[]
@@ -116,12 +117,10 @@ class LogIn:
                     #Shall we add file names to a list or something? For future reference
                     name_list.append(name) 
                     i = i + 1
-            
-                return [client,spreadsheetfeed,name_list,doc_client]      
-             
+                return [client,spreadsheetfeed,name_list,doc_client]       
         except:
             print "Error occurred while fetching spreadsheets..."
-            sys.exit(-1)
+            sys.exit(3)
                 
             
     def userChoice(self,ssdata_arg):
@@ -146,17 +145,20 @@ class LogIn:
             # a little sanity check
             try:
                 choice=int(choice,10)
-                sheet= ss_name_list[choice]
-                choice_key=ssf.entry[choice].id.text.rsplit('/',1)[1]
-                #print choice_key
-                return [client,ssf,choice_key,doc_client,choice]
+                if(choice>0):
+                    sheet= ss_name_list[choice]
+                    choice_key=ssf.entry[choice].id.text.rsplit('/',1)[1]
+                    #print choice_key
+                    return [client,ssf,choice_key,doc_client,choice]
+                else:
+                    sys.exit()
             except ValueError:
                 print "Invalid input"
-                sys.exit(-1)
+                sys.exit(4)
             except:
-                sys.exit(-1)
+                sys.exit(5)
         else:
-            sys.exit(-1)
+            sys.exit(6)
         
     def readWorksheets(self,data_arg):
         '''
@@ -183,7 +185,6 @@ class LogIn:
                 print "["+str(j)+"] "+ worksheet.title.text
                 j=j+1
              
-           
             ws_choice= raw_input("Number of the file from the above list: ")
             ws_choice=int(ws_choice)-1 # worksheets start with 0            
             output= [client,spreadsheetfeed,sskey,ws_choice,doc_client,sschoice]
@@ -191,7 +192,7 @@ class LogIn:
                           
         except:
             print "Error occurred while fetching worksheets..."
-            sys.exit(-1)
+            sys.exit(7)
              
                     
             

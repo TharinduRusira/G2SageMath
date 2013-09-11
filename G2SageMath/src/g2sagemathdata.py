@@ -32,28 +32,28 @@ class DataHandler(object):
             print uri
             
             #Authentication Token is required at this point
-#             doc_outh_token= doc_client.GetClientLoginToken()
-#             doc_client.SetClientLoginToken(client.GetClientLoginToken())
-#              
-#             
-#             if _userplatform == 'linux' or _userplatform == 'linux2':
-#                 print "Downloading...."
-#                 directory="/tmp"
-#                 temp_file= tempfile.mkstemp(suffix=".csv", prefix="g2sagemath", dir=directory)
-#                 #doc_client.Download(entry_or_id_or_url=uri, file_path=temp_file)
-#                 print "Download complete..."
-#                 os.remove(temp_file)
-#                 
-#                 
-#             elif _userplatform == 'win32':
-#                 #download to another location
-#                 pass
-#                 
-#                 # make an HTTP request and download the file to
-#                 client.Download()
-#             
-#         else:
-#             print "Error in arguments"
+            doc_outh_token= doc_client.GetClientLoginToken()
+            doc_client.SetClientLoginToken(client.GetClientLoginToken())
+              
+             
+            if _userplatform == 'linux' or _userplatform == 'linux2':
+                print "Downloading...."
+                directory="/tmp"
+                temp_file= tempfile.mkstemp(suffix=".csv", prefix="g2sagemath", dir=directory)
+                #doc_client.Download(entry_or_id_or_url=uri, file_path=temp_file)
+                print "Download complete..."
+                os.remove(temp_file)
+                 
+                 
+            elif _userplatform == 'win32':
+                #download to another location
+                pass
+                 
+                # make an HTTP request and download the file to
+                client.Download()
+             
+        else:
+            print "Error in arguments"
             
             
             
