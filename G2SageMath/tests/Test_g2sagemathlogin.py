@@ -183,7 +183,7 @@ class LoginTest(unittest.TestCase):
         arg=self.l1.showDrive([[self.ss_client,self.doc_client]])
         try:
             out_list=self.l1.userChoice(ssdata_arg=arg)
-            self.assertEquals(len(out_list),4)
+            self.assertEquals(len(out_list),5)
             
         except:
             self.assertRaises(SystemExit)
