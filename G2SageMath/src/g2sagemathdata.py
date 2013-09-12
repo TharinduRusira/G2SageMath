@@ -20,7 +20,7 @@ class DataHandler(object):
         '''
         
         
-        if(data_arg is not None and len(data_arg)==5):
+        if(data_arg is not None and len(data_arg)==6):
            
             client= data_arg[0]
             ssf=data_arg[1]
@@ -28,21 +28,21 @@ class DataHandler(object):
             wskey=data_arg[3]
             doc_client= data_arg[4]
             
-            uri="http://docs.google.com/feeds/spreadsheets/private/full/key=%sgid=%d" %(sskey,wskey)
+            uri="http://docs.google.com/feeds/spreadsheets/ccc?key=%s#gid=%d" %(sskey,wskey)
             print uri
             
             #Authentication Token is required at this point
-            doc_outh_token= doc_client.GetClientLoginToken()
-            doc_client.SetClientLoginToken(client.GetClientLoginToken())
+#             doc_outh_token= doc_client.GetClientLoginToken()
+#             doc_client.SetClientLoginToken(client.GetClientLoginToken())
               
              
             if _userplatform == 'linux' or _userplatform == 'linux2':
-                print "Downloading...."
+                #print "Downloading...."
                 directory="/tmp"
-                temp_file= tempfile.mkstemp(suffix=".csv", prefix="g2sagemath", dir=directory)
+                #temp_file= tempfile.mkstemp(suffix=".csv", prefix="g2sagemath", dir=directory)
                 #doc_client.Download(entry_or_id_or_url=uri, file_path=temp_file)
-                print "Download complete..."
-                os.remove(temp_file)
+                #print "Download complete..."
+                #os.remove(temp_file)
                  
                  
             elif _userplatform == 'win32':
@@ -50,7 +50,7 @@ class DataHandler(object):
                 pass
                  
                 # make an HTTP request and download the file to
-                client.Download()
+                
              
         else:
             print "Error in arguments"

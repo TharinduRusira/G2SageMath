@@ -69,10 +69,9 @@ class LoginTest(unittest.TestCase):
     def test_login_output_size(self):
         
         self.assertEqual(len(self.c),2)
-               
-            
+                    
     '''
-    Test id= 
+    Test id= 4
         Unit to test = g2sagemathlogin.LogIn.Oauth2Login()
         Assumptions= 
         Test data= 
@@ -82,12 +81,12 @@ class LoginTest(unittest.TestCase):
         
         Expected result= a value of type "gdata.spreadsheet.service.SpreadsheetsService"
     '''
-    @unittest.skip("not implemented")      
+    @unittest.skip("not used in this phase of g2sagemath ")      
     def test_oauth2login(self):
         pass
       
     '''
-    Test id= 
+    Test id= 5
         Unit to test = g2sagemathlogin.LogIn.ShowDrive()
         Assumptions= 
         Test data= 
@@ -107,7 +106,7 @@ class LoginTest(unittest.TestCase):
             
     
     '''
-    Test id= 
+    Test id= 6
         Unit to test = g2sagemathlogin.LogIn.ShowDrive()
         Assumptions= 
         Test data= 
@@ -126,7 +125,7 @@ class LoginTest(unittest.TestCase):
             self.assertRaises(SystemExit)
              
     '''
-    Test id= 
+    Test id= 7
         Unit to test = g2sagemathlogin.LogIn.ShowDrive()
         Assumptions= 
         Test data= 
@@ -143,7 +142,16 @@ class LoginTest(unittest.TestCase):
         except:
             self.assertRaises(SystemExit)
             
-    
+    '''
+    Test id= 8
+        Unit to test = g2sagemathlogin.LogIn.ShowDrive()
+        Assumptions= 
+        Test data= 
+        Steps 
+                 
+        Expected result= 
+    '''
+            
     def test_showDrive_output_content_1(self):
         
         try:
@@ -152,6 +160,16 @@ class LoginTest(unittest.TestCase):
         except:
             self.assertRaises(SystemExit)
             
+    '''
+    Test id= 9
+        Unit to test = g2sagemathlogin.LogIn.ShowDrive()
+        Assumptions= 
+        Test data= 
+        Steps 
+                 
+        Expected result= 
+    '''
+            
     def test_showDrive_output_content_2(self):
         
         try:
@@ -159,6 +177,16 @@ class LoginTest(unittest.TestCase):
             self.assertEqual(type(out_list[2]),type([])) 
         except:
             self.assertRaises(SystemExit)
+            
+    '''
+    Test id= 10
+        Unit to test = g2sagemathlogin.LogIn.ShowDrive()
+        Assumptions= 
+        Test data= 
+        Steps 
+                 
+        Expected result= 
+    '''
             
     def test_showDrive_output_content_3(self):
         try:
@@ -169,7 +197,7 @@ class LoginTest(unittest.TestCase):
              
        
     '''
-    Test id= 
+    Test id= 11
         Unit to test = g2sagemathlogin.LogIn.UserChoice()
         Assumptions= 
         Test data= 
@@ -188,6 +216,16 @@ class LoginTest(unittest.TestCase):
         except:
             self.assertRaises(SystemExit)
             
+    '''
+    Test id= 12
+        Unit to test = g2sagemathlogin.LogIn.ShowDrive()
+        Assumptions= 
+        Test data= 
+        Steps 
+                 
+        Expected result= 
+    '''
+    @unittest.skip("not implemented yet")       
     def test_userchoice_putput_content(self):
         pass
  

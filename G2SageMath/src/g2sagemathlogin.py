@@ -145,20 +145,22 @@ class LogIn:
             # a little sanity check
             try:
                 choice=int(choice,10)
-                if(choice>0):
+                if(choice>=0):
                     sheet= ss_name_list[choice]
                     choice_key=ssf.entry[choice].id.text.rsplit('/',1)[1]
                     #print choice_key
                     return [client,ssf,choice_key,doc_client,choice]
                 else:
-                    sys.exit()
+                    sys.exit(4)
             except ValueError:
                 print "Invalid input"
-                sys.exit(4)
-            except:
                 sys.exit(5)
+            except Exception as e:
+                print e
+                sys.exit(6)
         else:
-            sys.exit(6)
+            print "spreadsheet argument returned None"
+            sys.exit(7)
         
     def readWorksheets(self,data_arg):
         '''
@@ -192,11 +194,4 @@ class LogIn:
                           
         except:
             print "Error occurred while fetching worksheets..."
-            sys.exit(7)
-             
-                    
-            
-            
-       
-
-    
+            sys.exit(8)
