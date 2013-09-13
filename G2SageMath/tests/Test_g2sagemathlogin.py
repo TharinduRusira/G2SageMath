@@ -4,7 +4,9 @@ Created on Aug 17, 2013
 @author: tharindurusira
 '''
 import unittest
-import g2sagemathlogin
+import sys
+from g2sagemathlogin import LogIn
+
 
 
 class LoginTest(unittest.TestCase):
@@ -17,7 +19,7 @@ class LoginTest(unittest.TestCase):
         
     @classmethod
     def setUpClass(self):
-        self.l1=g2sagemathlogin.LogIn()
+        self.l1=LogIn()
         self.c=self.l1.login()
         self.ss_client = self.c[0]
         self.doc_client=self.c[1]
@@ -208,7 +210,7 @@ class LoginTest(unittest.TestCase):
     '''
     
     def test_userchoice_output(self):
-        arg=self.l1.showDrive([[self.ss_client,self.doc_client]])
+        arg=self.l1.showDrive([self.ss_client,self.doc_client])
         try:
             out_list=self.l1.userChoice(ssdata_arg=arg)
             self.assertEquals(len(out_list),5)
@@ -226,12 +228,13 @@ class LoginTest(unittest.TestCase):
         Expected result= 
     '''
     @unittest.skip("not implemented yet")       
-    def test_userchoice_putput_content(self):
+    def test_userchoice_output_content(self):
         pass
  
      
 
 
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testLogin']
+#     import sys;sys.argv = ['', 'Test.Test_g2sagemathlogin']
+    sys.path.append("./src:./tests")
     unittest.main()
