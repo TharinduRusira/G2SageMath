@@ -14,10 +14,13 @@ class DataHandler(object):
     def downloadCSV(self,data_arg):
         
         '''
+        This method takes an argument(a list) and downloads the specified file
+        ( after converting to .csv format)to a system specific temporary location.
+        
+        Input argument is resolved as follows 
             data_arg[0] --> gdata.Spreadsheet.service client
         '''
-        
-        
+    
         if(data_arg is not None and len(data_arg)==6):
            
             client= data_arg[0]
@@ -27,17 +30,17 @@ class DataHandler(object):
             doc_client= data_arg[4]
             ss_number=data_arg[5]
             
-            uri="https://docs.google.com/spreadsheet/ccc?key=%s" %(sskey)
+            uri="https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=%s&exportFormat=csv" %(sskey)
             print uri
             
             
             
             #Authentication Token is required at this point
 #             doc_outh_token= doc_client.GetClientLoginToken()
-#             doc_client.SetClientLoginToken(client.GetClientLoginToken())
+            doc_client.SetClientLoginToken(client.GetClientLoginToken())
               
-             
             if _userplatform == 'linux' or _userplatform == 'linux2':
+                
                 print "Downloading...."
                 directory="/tmp/g2sagemath.csv"
                 
@@ -50,8 +53,6 @@ class DataHandler(object):
             elif _userplatform == 'win32':
                 #download to another location
                 pass
-                 
-                # make an HTTP request and download the file to
                 
              
         else:

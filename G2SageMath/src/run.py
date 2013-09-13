@@ -14,7 +14,7 @@ def main(argv):
         y= l.showDrive(x)
         z=l.userChoice(y)
         final_details = l.readWorksheets(z)
-        #m.downloadCSV(data_arg=final_details)
+        m.downloadCSV(data_arg=final_details)
         
     except gflags.FlagsError, e:
         print '%s\\nUsage: %s ARGS\\n%s' % (e, argv[0], l.FLAGS)
