@@ -5,6 +5,17 @@ You can run the application with:
 
   python run.py
   
+Running the test-suite
+
+	add ./src directory to the system path before running the test cases
+	
+		import sys
+		sys.path(./src)
+	then run the test module
+	
+		python Test_g2sagemathlogin
+		python Test_g2sagemathdata
+  
 
 
 
