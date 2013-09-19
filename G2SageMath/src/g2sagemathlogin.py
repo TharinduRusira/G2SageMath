@@ -1,7 +1,15 @@
-'''
+"""
 Created on Aug 6, 2013
 @author: tharindurusira
-'''
+"""
+
+#############################################################################
+#       Copyright (C) 2013 Tharindu Rusira <tharindurusira@gmail.com>
+#  Distributed under the terms of the GNU General Public License (GPL)
+#  The full text of the GPL is available at:
+#                  http://www.gnu.org/licenses/
+#############################################################################
+
 import gflags
 import httplib2
 import os
@@ -9,11 +17,11 @@ import os
 from apiclient.discovery import build
 from oauth2client.client import flow_from_clientsecrets
 import gdata.spreadsheet.service
+from gdata.client import BadAuthentication
 
 import logging
 import getpass
 import sys
-from gdata.client import BadAuthentication
 
 logging.basicConfig()
 import gdata.docs.service
@@ -21,9 +29,9 @@ import gdata.docs.service
 
 
 class LogIn:
-    '''
+    """
         This module will provide functions to login, search documents and select a spreadsheet 
-    '''
+    """
 
     # OAuth 2.0 variables
     FLAGS = gflags.FLAGS
@@ -65,15 +73,16 @@ class LogIn:
             if(str(e)=="[Errno 113] No route to host"):
                 print "Network ERROR. Check your Internet connection...\n"
             else:
+                print e
                 print "Unknown ERROR...\n"
             sys.exit(2)
  
          
     def oauth2Login(self):
-        '''
+        """
         Login to a Google account using OAuth 2.0
         
-        '''
+        """
         # Set up a Flow object to be used for authentication.
         FLOW = flow_from_clientsecrets(self.CLIENT_SECRETS, scope=['https://spreadsheets.google.com/feeds'], message=self.MISSING_CLIENT_SECRETS_MESSAGE, redirect_uri=self.REDIRECT_URI)
         auth_url = FLOW.step1_get_authorize_url()
@@ -96,12 +105,12 @@ class LogIn:
             return False
                   
     def showDrive(self, data_arg):
-        '''
+        """
             data_arg is a list where data_arg[0] is of the type gdata.spreadsheet.service.SpreadsheetsService()
             returned from login() method 
             
             data_arg[1] --> doc_client
-        '''
+        """
         client= data_arg[0]
         doc_client= data_arg[1]
         try:
@@ -125,14 +134,14 @@ class LogIn:
             
     def userChoice(self,ssdata_arg):
         
-        '''
+        """
             ssdata_arg[0] is the instance of gdata.spreadsheet.service.SpreadsheetsService()
             passed from above methods
             ssdata_arg[1] is the SpreadSheetFeed
             ssdata_arg[2] is the list of spreadsheet names
             ssdata_arg[3] doc_client
         
-        '''
+        """
         
         if(ssdata_arg != None):
             
@@ -163,13 +172,13 @@ class LogIn:
             sys.exit(7)
         
     def readWorksheets(self,data_arg):
-        '''
+        """
             data_arg[0] is a client object
             data_arg[1] is the SpreadSheetFeed
             data_arg[2] is the spreadsheet choice made by the user
             data_arg[3] doc_client
             data_arg[4] list index of the spreadsheet in spreadsheetfeed
-        '''
+        """
         
         client= data_arg[0]
         spreadsheetfeed=data_arg[1]
