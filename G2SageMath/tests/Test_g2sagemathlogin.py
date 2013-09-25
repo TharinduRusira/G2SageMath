@@ -111,7 +111,7 @@ class LoginTest(unittest.TestCase):
         
         d=[self.ss_client]
         try:
-            out_list=self.l1.showDrive(data_arg=d)
+            out_list=self.l1.show_drive(data_arg=d)
             self.assertEqual(type(out_list),type([]))
         except:
             self.assertRaises(SystemExit)
@@ -130,7 +130,7 @@ class LoginTest(unittest.TestCase):
     def test_showdrive_output_size(self):
         
         try:
-            out_list=self.l1.showDrive([self.ss_client,self.doc_client])
+            out_list=self.l1.show_drive([self.ss_client,self.doc_client])
             self.assertEqual(len(out_list),4)
 
         except:
@@ -149,7 +149,7 @@ class LoginTest(unittest.TestCase):
     def test_showdrive_output_content_0(self):
         
         try:
-            out_list=self.l1.showDrive([self.ss_client,self.doc_client])
+            out_list=self.l1.show_drive([self.ss_client,self.doc_client])
             self.assertEqual(str(type(out_list[0])),"<class 'gdata.spreadsheet.service.SpreadsheetsService'>")
         except:
             self.assertRaises(SystemExit)
@@ -167,7 +167,7 @@ class LoginTest(unittest.TestCase):
     def test_showDrive_output_content_1(self):
         
         try:
-            out_list=self.l1.showDrive([self.ss_client,self.doc_client])
+            out_list=self.l1.show_drive([self.ss_client,self.doc_client])
             self.assertEqual(str(type(out_list[1])),"<class 'gdata.GDataFeed'>")
         except:
             self.assertRaises(SystemExit)
@@ -185,7 +185,7 @@ class LoginTest(unittest.TestCase):
     def test_showDrive_output_content_2(self):
         
         try:
-            out_list=self.l1.showDrive([self.ss_client,self.doc_client])
+            out_list=self.l1.show_drive([self.ss_client,self.doc_client])
             self.assertEqual(type(out_list[2]),type([])) 
         except:
             self.assertRaises(SystemExit)
@@ -202,7 +202,7 @@ class LoginTest(unittest.TestCase):
             
     def test_showDrive_output_content_3(self):
         try:
-            out_list=self.l1.showDrive([self.ss_client,self.doc_client])
+            out_list=self.l1.show_drive([self.ss_client,self.doc_client])
             self.assertEqual(str(type(out_list[3])),"<class 'gdata.docs.service.DocsService'>") 
         except:
             self.assertRaises(SystemExit)
@@ -220,9 +220,9 @@ class LoginTest(unittest.TestCase):
     """
     
     def test_userchoice_output(self):
-        arg=self.l1.showDrive([self.ss_client,self.doc_client])
+        arg=self.l1.show_drive([self.ss_client,self.doc_client])
         try:
-            out_list=self.l1.userChoice(ssdata_arg=arg)
+            out_list=self.l1.user_choice(ssdata_arg=arg)
             self.assertEquals(len(out_list),5)
             
         except:

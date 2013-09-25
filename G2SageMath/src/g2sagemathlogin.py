@@ -11,11 +11,12 @@ Created on Aug 6, 2013
 #############################################################################
 
 import gflags
-import httplib2
 import os
-
+'''
+import httplib2
 from apiclient.discovery import build
 from oauth2client.client import flow_from_clientsecrets
+'''
 import gdata.spreadsheet.service
 from gdata.client import BadAuthentication
 
@@ -77,6 +78,7 @@ class LogIn:
                 print "Unknown ERROR...\n"
             sys.exit(2)
  
+    ''' outh2Login commented 
          
     def oauth2Login(self):
         """
@@ -103,8 +105,8 @@ class LogIn:
         except :
             print 'HTTP initialization error'
             return False
-                  
-    def showDrive(self, data_arg):
+    '''                  
+    def show_drive(self, data_arg):
         """
             data_arg is a list where data_arg[0] is of the type gdata.spreadsheet.service.SpreadsheetsService()
             returned from login() method 
@@ -129,10 +131,9 @@ class LogIn:
                 return [client,spreadsheetfeed,name_list,doc_client]       
         except:
             print "Error occurred while fetching spreadsheets..."
-            sys.exit(3)
-                
+            sys.exit(3)               
             
-    def userChoice(self,ssdata_arg):
+    def user_choice(self,ssdata_arg):
         
         """
             ssdata_arg[0] is the instance of gdata.spreadsheet.service.SpreadsheetsService()
@@ -171,7 +172,7 @@ class LogIn:
             print "spreadsheet argument returned None"
             sys.exit(7)
         
-    def readWorksheets(self,data_arg):
+    def read_worksheets(self,data_arg):
         """
             data_arg[0] is a client object
             data_arg[1] is the SpreadSheetFeed

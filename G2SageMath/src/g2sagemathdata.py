@@ -3,7 +3,6 @@ Created on Sep 4, 2013
 
 @author: tharindurusira
 """
-
 #############################################################################
 #       Copyright (C) 2013 Tharindu Rusira <tharindurusira@gmail.com>
 #  Distributed under the terms of the GNU General Public License (GPL)
@@ -12,6 +11,10 @@ Created on Sep 4, 2013
 #############################################################################
 
 from sys import platform as _userplatform
+import subprocess
+import sys,os
+from subprocess import CalledProcessError
+
 
 class DataHandler(object):
     """
@@ -41,10 +44,8 @@ class DataHandler(object):
             uri="https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=%s&exportFormat=csv" %(sskey)
             print uri
             
-            
-            
             #Authentication Token is required at this point
-#             doc_outh_token= doc_client.GetClientLoginToken()
+            ## doc_outh_token= doc_client.GetClientLoginToken()
             doc_client.SetClientLoginToken(client.GetClientLoginToken())
               
             if _userplatform == 'linux' or _userplatform == 'linux2':
@@ -70,6 +71,18 @@ class DataHandler(object):
             This method will call Sage and ask Sage to load the csv file
             by sending a file pointer
         """
+        print "Opening Sage..."
+        if(_userplatform == 'linux' or _userplatform == 'linux2'):
+            try:
+                #returncode= subprocess.Popen("PATH=$PATH:/host/Ubuntu_software/sage-5.11",shell=True) 
+                #This is working for my Sage path, in general the user needs to have Sage path set beforehand
+                my_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
+                returncode= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%my_sage_path],shell=True)
+                print returncode
+                
+            except CalledProcessError as e:
+                print e
+        
         
             
             
