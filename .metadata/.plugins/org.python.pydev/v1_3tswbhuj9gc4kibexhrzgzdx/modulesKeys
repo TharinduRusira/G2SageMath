@@ -3768,9 +3768,6 @@ ubuntuone.controlpanel.utils.windows|/usr/lib/python2.7/dist-packages/ubuntuone-
 ubuntuone.controlpanel.web_client|/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/ubuntuone/controlpanel/web_client.py
 ubuntuone.couch.__init__|/usr/lib/python2.7/dist-packages/ubuntuone-couch/ubuntuone/couch/__init__.py
 ubuntuone.couch.auth|/usr/lib/python2.7/dist-packages/ubuntuone-couch/ubuntuone/couch/auth.py
-ubuntuone.eventlog.__init__|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/eventlog/__init__.py
-ubuntuone.eventlog.zg_listener|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/eventlog/zg_listener.py
-ubuntuone.eventlog.zglog|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/eventlog/zglog.py
 ubuntuone.installer.__init__|/usr/lib/python2.7/dist-packages/ubuntuone-installer/ubuntuone/installer/__init__.py
 ubuntuone.installer.gui|/usr/lib/python2.7/dist-packages/ubuntuone-installer/ubuntuone/installer/gui.py
 ubuntuone.logger|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/logger.py
@@ -3779,12 +3776,10 @@ ubuntuone.platform.constants|/usr/lib/python2.7/dist-packages/ubuntuone-client/u
 ubuntuone.platform.credentials.__init__|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/credentials/__init__.py
 ubuntuone.platform.credentials.linux|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/credentials/linux.py
 ubuntuone.platform.credentials.windows|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/credentials/windows.py
-ubuntuone.platform.event_logging|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/event_logging.py
 ubuntuone.platform.launcher|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/launcher.py
 ubuntuone.platform.linux.__init__|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/__init__.py
 ubuntuone.platform.linux.constants|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/constants.py
 ubuntuone.platform.linux.dbus_interface|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/dbus_interface.py
-ubuntuone.platform.linux.event_logging|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/event_logging.py
 ubuntuone.platform.linux.filesystem_notifications|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/filesystem_notifications.py
 ubuntuone.platform.linux.launcher|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/launcher.py
 ubuntuone.platform.linux.logger|/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/platform/linux/logger.py
@@ -3927,6 +3922,7 @@ wsgiref.util|/usr/lib/python2.7/wsgiref/util.py
 wsgiref.validate|/usr/lib/python2.7/wsgiref/validate.py
 wx
 wxPython
+wxversion|/usr/lib/python2.7/dist-packages/wxversion.py
 xapian.__init__|/usr/lib/python2.7/dist-packages/xapian/__init__.py
 xapian._xapian|/usr/lib/python2.7/dist-packages/xapian/_xapian.so
 xdg.BaseDirectory|/usr/lib/python2.7/dist-packages/xdg/BaseDirectory.py

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="48" version="2.0">
+<workbench progressCount="47" version="2.0">
 <workbenchAdvisor/>
-<window height="666" width="1167" x="191" y="27">
+<window height="690" maximized="true" width="1259" x="107" y="59">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -38,30 +38,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="run.py" partName="run" path="/host/Semester5/SEP/Project/code/G2SageMath/src/run.py" title="run" tooltip="G2SageMath/src/run.py" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="run.py" partName="run" path="/host/Semester5/SEP/Project/code/G2SageMath/src/run.py" title="run" tooltip="G2SageMath/src/run.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/src/run.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="531" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="g2sagemathlogin.py" partName="g2sagemathlogin" path="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathlogin.py" title="g2sagemathlogin" tooltip="G2SageMath/src/g2sagemathlogin.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/src/g2sagemathlogin.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2018" selectionTopPixel="2952"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathlogin.py" partName="Test_g2sagemathlogin" path="/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathlogin.py" title="Test_g2sagemathlogin" tooltip="G2SageMath/tests/Test_g2sagemathlogin.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3965" selectionTopPixel="2873"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathdata.py" partName="Test_g2sagemathdata" path="/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathdata.py" title="Test_g2sagemathdata" tooltip="G2SageMath/tests/Test_g2sagemathdata.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="450" selectionTopPixel="80"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="712" selectionTopPixel="57"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="g2sagemathdata.py" partName="g2sagemathdata" path="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathdata.py" title="g2sagemathdata" tooltip="G2SageMath/src/g2sagemathdata.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/src/g2sagemathdata.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1985" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="562" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathdata.py" partName="Test_g2sagemathdata" path="/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathdata.py" title="Test_g2sagemathdata" tooltip="G2SageMath/tests/Test_g2sagemathdata.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="447" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathlogin.py" partName="Test_g2sagemathlogin" path="/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathlogin.py" title="Test_g2sagemathlogin" tooltip="G2SageMath/tests/Test_g2sagemathlogin.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6754" selectionTopPixel="281"/>
 </editor>
 </editors>
 <views>
@@ -134,10 +129,9 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath"/>
 <expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/src"/>
-<expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathlogin.py"/>
 <expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/tests"/>
 <expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathlogin.py"/>
-<selected IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/src"/>
+<selected IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/tests/Test_g2sagemathlogin.py"/>
 </viewState>
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
@@ -298,18 +292,18 @@
 <fastViewBars>
 <fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.python.pydev.navigator.view" style="0">
 <fastViews>
-<view id="org.python.pydev.navigator.view" ratio="0.29133156"/>
+<view id="org.python.pydev.navigator.view" ratio="0.2907855"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.python.pydev.debug.pyunit.pyUnitView" style="0">
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.egit.ui.RepositoriesView" style="0">
 <fastViews>
 <view id="org.python.pydev.debug.pyunit.pyUnitView" ratio="0.48411214"/>
-<view id="org.eclipse.egit.ui.RepositoriesView" ratio="0.22990654"/>
+<view id="org.eclipse.egit.ui.RepositoriesView" ratio="0.6682243"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@d7cdb8" orientation="512" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.51385164"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.5120846"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -475,171 +469,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathlogin.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathdata.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/apiclient/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathlogin.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathdata.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathlogin.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/run.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/run.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathlogin.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/run.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathdata.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/run.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/run.py"/>
 </editors>
-<item historyLabel="apiclient" index="4">
-<position/>
-</item>
-<item historyLabel="src" index="5">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="apiclient" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="src" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="g2sagemathdata" index="3">
-<position info="not_deleted" x="446" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="src" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="src" index="5">
-<position/>
-</item>
-<item historyLabel="tests" index="6">
-<position/>
-</item>
-<item historyLabel="src" index="5">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position info="not_deleted" x="82" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="g2sagemathlogin" index="1">
-<position info="not_deleted" x="447" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathdata" index="2">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="202" y="0"/>
-</item>
-<item historyLabel="g2sagemathlogin" index="1">
-<position info="not_deleted" x="447" y="0"/>
-</item>
-<item historyLabel="g2sagemathdata" index="3">
-<position info="not_deleted" x="446" y="0"/>
-</item>
-<item historyLabel="src" index="5">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathdata" index="2">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position/>
-</item>
-<item historyLabel="g2sagemathlogin" index="1">
-<position info="not_deleted" x="447" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathdata" index="2">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="541" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="976" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="881" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="src" index="5">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="tests" index="6">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="881" y="0"/>
-</item>
-<item historyLabel="g2sagemathlogin" index="7">
-<position info="not_deleted" x="493" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="6572" y="4"/>
-</item>
-<item historyLabel="g2sagemathlogin" index="7">
-<position info="not_deleted" x="5857" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
-<position info="not_deleted" x="6572" y="4"/>
-</item>
-<item historyLabel="g2sagemathdata" index="8">
-<position info="not_deleted" x="446" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathdata" index="9">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="0">
+<item historyLabel="Test_g2sagemathlogin" index="1">
 <position info="not_deleted" x="3965" y="0"/>
 </item>
-<item historyLabel="g2sagemathlogin" index="7">
-<position info="not_deleted" x="5857" y="0"/>
-</item>
-<item historyLabel="g2sagemathdata" index="8">
-<position info="not_deleted" x="2010" y="0"/>
-</item>
-<item historyLabel="g2sagemathlogin" index="10">
-<position info="not_deleted" x="5899" y="0"/>
-</item>
-<item historyLabel="run" index="11">
-<position info="not_deleted" x="433" y="0"/>
-</item>
-<item historyLabel="g2sagemathlogin" index="10">
-<position info="not_deleted" x="588" y="0"/>
-</item>
-<item historyLabel="g2sagemathdata" index="8">
-<position info="not_deleted" x="1410" y="0"/>
-</item>
-<item historyLabel="run" index="12">
-<position info="not_deleted" x="433" y="0"/>
-</item>
-<item historyLabel="Test_g2sagemathlogin" index="13">
-<position info="not_deleted" x="3965" y="0"/>
-</item>
-<item historyLabel="run" index="12">
+<item historyLabel="run" index="0">
 <position info="not_deleted" x="531" y="0"/>
 </item>
-<item historyLabel="Test_g2sagemathlogin" index="13">
+<item historyLabel="Test_g2sagemathlogin" index="1">
 <position info="not_deleted" x="3965" y="0"/>
 </item>
-<item active="true" historyLabel="g2sagemathlogin" index="14">
-<position info="not_deleted" x="588" y="0"/>
+<item historyLabel="g2sagemathlogin" index="2">
+<position info="not_deleted" x="2018" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="531" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathlogin" index="4">
+<position info="not_deleted" x="3965" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="5">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="2040" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position/>
+</item>
+<item historyLabel="g2sagemathlogin" index="2">
+<position info="not_deleted" x="6450" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position/>
+</item>
+<item historyLabel="g2sagemathlogin" index="2">
+<position info="not_deleted" x="6253" y="15"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="5">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="717" y="12"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="893" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="2442" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="5">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathlogin" index="4">
+<position info="not_deleted" x="3967" y="0"/>
+</item>
+<item historyLabel="g2sagemathlogin" index="2">
+<position info="not_deleted" x="6253" y="15"/>
+</item>
+<item historyLabel="Test_g2sagemathlogin" index="4">
+<position info="not_deleted" x="3967" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="893" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="2073" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="893" y="0"/>
+</item>
+<item historyLabel="run" index="3">
+<position info="not_deleted" x="872" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="2073" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="3032" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="7">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="2308" y="0"/>
+</item>
+<item historyLabel="run" index="8">
+<position info="not_deleted" x="872" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="7">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="run" index="8">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="7">
+<position info="not_deleted" x="702" y="0"/>
+</item>
+<item historyLabel="g2sagemathdata" index="6">
+<position info="not_deleted" x="562" y="0"/>
+</item>
+<item historyLabel="run" index="8">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="7">
+<position info="not_deleted" x="702" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathlogin" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="7">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathlogin" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="10">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="run" index="11">
+<position/>
+</item>
+<item historyLabel="Test_g2sagemathlogin" index="9">
+<position info="not_deleted" x="6754" y="0"/>
+</item>
+<item historyLabel="Test_g2sagemathdata" index="10">
+<position info="not_deleted" x="447" y="0"/>
+</item>
+<item historyLabel="run" index="11">
+<position info="not_deleted" x="863" y="0"/>
+</item>
+<item active="true" historyLabel="run" index="11">
+<position info="not_deleted" x="697" y="165"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -665,6 +656,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathlogin.py" tooltip="G2SageMath/tests/Test_g2sagemathlogin.py">
+<persistable path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathdata.py" tooltip="G2SageMath/tests/Test_g2sagemathdata.py">
+<persistable path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="G2SageMath/tests/__init__.py">
 <persistable path="/G2SageMath/tests/__init__.py"/>
 </file>
@@ -679,12 +676,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="g2sagemathdata.py" tooltip="G2SageMath/src/g2sagemathdata.py">
 <persistable path="/G2SageMath/src/g2sagemathdata.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathdata.py" tooltip="G2SageMath/tests/Test_g2sagemathdata.py">
-<persistable path="/G2SageMath/tests/Test_g2sagemathdata.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Test_g2sagemathlogin.py" tooltip="G2SageMath/tests/Test_g2sagemathlogin.py">
-<persistable path="/G2SageMath/tests/Test_g2sagemathlogin.py"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="g2sagemathlogin.py" tooltip="G2SageMath/src/g2sagemathlogin.py">
 <persistable path="/G2SageMath/src/g2sagemathlogin.py"/>
