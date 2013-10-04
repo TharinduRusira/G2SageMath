@@ -64,6 +64,7 @@ class DataHandler(object):
              
         else:
             print "Error in arguments"
+            sys.exit(9)
 
 
     def call_sage(self):
