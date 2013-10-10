@@ -14,6 +14,7 @@ from sys import platform as _userplatform
 import subprocess
 import sys,os
 import glob
+import readline
 from subprocess import CalledProcessError
 
 
@@ -76,16 +77,19 @@ class DataHandler(object):
         print "Opening Sage..."
         if(_userplatform == 'linux' or _userplatform == 'linux2'):
             try: 
-                
-                #This is working for my Sage path, in general the user needs to have Sage path set beforehand
-                my_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
-                return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%my_sage_path],shell=True)
-                #print return_code
+                #check if Sage is in the $PATH
+                if self.is_sage_installed():
+                    #call sage directly
+                    return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && sage; exec bash\"'"],shell=True)
+                else:    
+                    user_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
+                    return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%my_sage_path],shell=True)
+                    
                 
             except CalledProcessError as e:
                 print e
         
-    def check_sage_installation(self):
+    def is_sage_installed(self):
         """
             This method checks if sage is available in the system path
         """
@@ -102,7 +106,22 @@ class DataHandler(object):
         """
             This method allows user to add sage path manually
         """
-        pass
+        try:
+            readline.set_completer_delims(' \t\n;')
+            readline.parse_and_bind("tab: complete")
+            readline.set_completer(self.complete)
+            custom_sage_path = raw_input('Enter sage path: ')
+            return custom_sage_path
+        except EOFError:
+            print "User aborted the process"
+            sys.exit()
+        
+
+    def complete(self,text, state):
+        """
+            Completer handler for readline.set_completer
+        """
+        return (glob.glob(text+'*')+[None])[state]
             
             
             
