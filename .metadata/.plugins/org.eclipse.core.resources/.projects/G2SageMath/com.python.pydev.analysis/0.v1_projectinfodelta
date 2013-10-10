@@ -1,1 +1,10 @@
-DELSTRsrc.g2sagemathdata
+INSTUPsrc.g2sagemathdata
+/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathdata.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1&&2|6|2|1&&2|7|2|1
+download_csv=3
+DataHandler=1
+complete=7
+src.g2sagemathdata=2
+read_user_sage_path=6
+is_sage_installed=5
+call_sage=4

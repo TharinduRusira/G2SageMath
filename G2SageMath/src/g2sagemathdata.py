@@ -82,9 +82,11 @@ class DataHandler(object):
                     #call sage directly
                     return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && sage; exec bash\"'"],shell=True)
                 else:    
-                    user_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
-                    return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%my_sage_path],shell=True)
-                    
+                    #user_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
+                    user_sage_path = self.read_user_sage_path() 
+                    new_path = "PATH=$PATH:%s"%user_sage_path
+                    return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%new_path],shell=True)
+                        
                 
             except CalledProcessError as e:
                 print e
@@ -102,7 +104,7 @@ class DataHandler(object):
             return False
         
         
-    def set_user_sage_path(self):
+    def read_user_sage_path(self):
         """
             This method allows user to add sage path manually
         """
