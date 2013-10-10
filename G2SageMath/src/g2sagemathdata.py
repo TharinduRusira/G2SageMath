@@ -13,6 +13,7 @@ Created on Sep 4, 2013
 from sys import platform as _userplatform
 import subprocess
 import sys,os
+import glob
 from subprocess import CalledProcessError
 
 
@@ -74,17 +75,34 @@ class DataHandler(object):
         """
         print "Opening Sage..."
         if(_userplatform == 'linux' or _userplatform == 'linux2'):
-            try:
-                #returncode= subprocess.Popen("PATH=$PATH:/host/Ubuntu_software/sage-5.11",shell=True) 
+            try: 
+                
                 #This is working for my Sage path, in general the user needs to have Sage path set beforehand
                 my_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
-                returncode= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%my_sage_path],shell=True)
-                print returncode
+                return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%my_sage_path],shell=True)
+                #print return_code
                 
             except CalledProcessError as e:
                 print e
         
+    def check_sage_installation(self):
+        """
+            This method checks if sage is available in the system path
+        """
+        try:
+            if os.system("sage -v")== 0:
+                return True
+            else:
+                return False            
+        except:
+            return False
         
+        
+    def set_user_sage_path(self):
+        """
+            This method allows user to add sage path manually
+        """
+        pass
             
             
             
