@@ -81,11 +81,27 @@ class DataHandler(object):
                 if self.is_sage_installed():
                     #call sage directly
                     return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && sage; exec bash\"'"],shell=True)
-                else:    
-                    #user_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
-                    user_sage_path = self.read_user_sage_path() 
-                    new_path = "PATH=$PATH:%s"%user_sage_path
-                    return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%new_path],shell=True)
+                else: 
+                    print "Sage is not found in PATH variable\nDo you wish to add sage path manually? (y/n)"
+                    user_will = raw_input()   
+                    if user_will == 'y':
+                        #user_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
+                        user_sage_path = self.read_user_sage_path()
+                        
+                        #check if the path is exactly the sage path
+                        if os.path.isfile(user_sage_path+"/sage"):
+                            new_path = "PATH=$PATH:%s"%user_sage_path
+                            return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%new_path],shell=True)
+                            print  return_code 
+                        else:
+                            print "Invalid sage path\n\n"
+                            sys.exit(12)
+                    elif user_will == 'n':
+                        print "Aborting the process..."
+                        sys.exit(10)
+                    else:
+                        print "Invalid input. Aborting G2SageMath..."
+                        sys.exit(11)
                         
                 
             except CalledProcessError as e:
