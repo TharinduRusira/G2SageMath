@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/g2sagemath.sage</name>
+			<type>1</type>
+			<location>/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemath.sage</location>
+		</link>
+	</linkedResources>
 </projectDescription>

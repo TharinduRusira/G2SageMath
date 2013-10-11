@@ -8,9 +8,7 @@ Integrating Google spreadsheets to Sage math library
   M.P. Tharindu Rusira Kumara (tharindurusira@gmail.com) 
 
   Department of Computer Science and Engineering         
-
   University of Moratuwa                                 
-
   Sri Lanka                                              
 
  ==========================================================

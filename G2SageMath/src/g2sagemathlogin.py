@@ -44,7 +44,7 @@ class LogIn:
     def __init__(self, redirect_uri='urn:ietf:wg:oauth:2.0:oob'):
         print '\n\nG2SageMath\nIntegrating Google spreadsheets to Sage\n' 
         print 'Author: M.P. Tharindu Rusira Kumara (tharindurusira@gmail.com)\n\n'
-        #self.REDIRECT_URI = redirect_uri
+        #self.REDIRECT_URI = redirect_uri # for OAuth 2.0 redirection
         
         
     def login(self):
@@ -73,12 +73,12 @@ class LogIn:
         except Exception as e:
             if(str(e)=="[Errno 113] No route to host"):
                 print "Network ERROR. Check your Internet connection...\n"
+                sys.exit()
             else:
                 print e
-                print "Unknown ERROR...\n"
-            sys.exit(2)
+                sys.exit(2)
  
-    ''' outh2Login commented 
+    ''' outh2Login commented out 
          
     def oauth2Login(self):
         """
@@ -105,7 +105,9 @@ class LogIn:
         except :
             print 'HTTP initialization error'
             return False
-    '''                  
+    '''  
+            
+                            
     def show_drive(self, data_arg):
         """
             data_arg is a list where data_arg[0] is of the type gdata.spreadsheet.service.SpreadsheetsService()

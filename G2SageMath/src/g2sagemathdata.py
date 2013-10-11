@@ -48,6 +48,7 @@ class DataHandler(object):
             
             #Authentication Token is required at this point
             ## doc_outh_token= doc_client.GetClientLoginToken()
+            
             doc_client.SetClientLoginToken(client.GetClientLoginToken())
               
             if _userplatform == 'linux' or _userplatform == 'linux2':
@@ -82,7 +83,7 @@ class DataHandler(object):
                     #call sage directly
                     return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && sage; exec bash\"'"],shell=True)
                 else: 
-                    print "Sage is not found in PATH variable\nDo you wish to add sage path manually? (y/n)"
+                    print "Sage is not found in PATH variable\nDo you wish to add sage path manually?(y/n)"
                     user_will = raw_input()   
                     if user_will == 'y':
                         #user_sage_path="PATH=$PATH:/host/Ubuntu_software/sage-5.11"
@@ -91,7 +92,15 @@ class DataHandler(object):
                         #check if the path is exactly the sage path
                         if os.path.isfile(user_sage_path+"/sage"):
                             new_path = "PATH=$PATH:%s"%user_sage_path
-                            return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%new_path],shell=True)
+                            SAGE_STARTUP_FILE= "g2sagemath.sage"
+                            bash_cmd_startup_file= "SAGE_STARTUP_FILE=%s"%SAGE_STARTUP_FILE
+                            return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && %s && sage; exec bash\"'"%(new_path,bash_cmd_startup_file)],shell=True)
+                            
+                            #now reset SAGE_STARTUP_FILE to original value
+                            DEFAULT_SAGE_STARTUP_FILE_PATH="~/.sage/init.sage"
+                            bash_cmd_original_startup_file="SAGE_STARTUP_FILE=%s"%DEFAULT_SAGE_STARTUP_FILE_PATH
+                            subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s; exec bash\"'"%bash_cmd_original_startup_file],shell=False) 
+                            
                             print  return_code 
                         else:
                             print "Invalid sage path\n\n"
@@ -130,9 +139,9 @@ class DataHandler(object):
             readline.set_completer(self.complete)
             custom_sage_path = raw_input('Enter sage path: ')
             return custom_sage_path
-        except EOFError:
+        except EOFError: # Ctrl+D
             print "User aborted the process"
-            sys.exit()
+            sys.exit(13)
         
 
     def complete(self,text, state):

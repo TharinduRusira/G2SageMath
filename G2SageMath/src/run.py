@@ -22,16 +22,14 @@ def main(argv):
     m = DataHandler()
     
     try:
-#         argv = l.FLAGS(argv)        
-#         x=l.login()
-#         y= l.show_drive(x)
-#         z=l.user_choice(y)
-#         final_details = l.read_worksheets(z)
-#         m.download_csv(data_arg=final_details)
-         m.call_sage()
-#        m.check_sage_installation()
-        
-        
+        argv = l.FLAGS(argv)        
+        x=l.login()
+        y= l.show_drive(x)
+        z=l.user_choice(y)
+        final_details = l.read_worksheets(z)
+        m.download_csv(data_arg=final_details)
+        m.call_sage()
+#        m.check_sage_installation()  
     except gflags.FlagsError, e:
         print '%s\\nUsage: %s ARGS\\n%s' % (e, argv[0], l.FLAGS)
         sys.exit(1)
