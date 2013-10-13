@@ -36,7 +36,6 @@ class DataHandlerTest(unittest.TestCase):
     def tearDown(self):
         pass
 
-
     def test_download_csv_input_check0(self):
         self.assertEqual(len(self._readws_out),6)
         
@@ -49,6 +48,8 @@ class DataHandlerTest(unittest.TestCase):
     def test_call_sage_system_path(self):
         # test if the PATH variable contains Sage
         pass
+    
+    
 
 
 if __name__ == "__main__":

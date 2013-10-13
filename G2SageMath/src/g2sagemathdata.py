@@ -110,12 +110,16 @@ class DataHandler(object):
                         sys.exit(10)
                     else:
                         print "Invalid input. Aborting G2SageMath..."
-                        sys.exit(11)
-                        
+                        sys.exit(11)                
                 
             except CalledProcessError as e:
                 print e
-        
+                sys.exit(14)
+            except Exception as e1:
+                print e1
+                sys.exit(15)
+                
+                
     def is_sage_installed(self):
         """
             This method checks if sage is available in the system path

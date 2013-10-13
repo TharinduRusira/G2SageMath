@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="48" version="2.0">
+<workbench progressCount="49" version="2.0">
 <workbenchAdvisor/>
-<window height="744" width="1308" x="211" y="24">
+<window height="744" maximized="true" width="1308" x="62" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,8 +15,8 @@
 <coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.erlide.ui.toolbars.creation" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -37,6 +37,7 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -47,11 +48,15 @@
 </editor>
 <editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="g2sagemathdata.py" partName="g2sagemathdata" path="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathdata.py" title="g2sagemathdata" tooltip="G2SageMath/src/g2sagemathdata.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/src/g2sagemathdata.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3677" selectionTopPixel="1190"/>
+<editorState selectionHorizontalPixel="145" selectionLength="0" selectionOffset="4076" selectionTopPixel="1190"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="g2sagemathlogin.py" partName="g2sagemathlogin" path="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemathlogin.py" title="g2sagemathlogin" tooltip="G2SageMath/src/g2sagemathlogin.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/src/g2sagemathlogin.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2366" selectionTopPixel="231"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="g2sagemath.sage" partName="g2sagemath.sage" path="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemath.sage" title="g2sagemath.sage" tooltip="G2SageMath/src/g2sagemath.sage" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/G2SageMath/src/g2sagemath.sage"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="55" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -124,7 +129,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath"/>
 <expanded IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/src"/>
-<selected IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/src/README"/>
+<selected IMemento.internal.id="/host/Semester5/SEP/Project/code/G2SageMath/src/g2sagemath.sage"/>
 </viewState>
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
@@ -285,18 +290,18 @@
 <fastViewBars>
 <fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.python.pydev.navigator.view" style="0">
 <fastViews>
-<view id="org.python.pydev.navigator.view" ratio="0.2903481"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@d7cdb8" orientation="512" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.51058424"/>
+<view id="org.python.pydev.navigator.view" ratio="0.2900302"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.egit.ui.RepositoriesView" style="0">
 <fastViews>
 <view id="org.python.pydev.debug.pyunit.pyUnitView" ratio="0.48286605"/>
-<view id="org.eclipse.egit.ui.RepositoriesView" ratio="0.16978194"/>
+<view id="org.eclipse.egit.ui.RepositoriesView" ratio="0.7352025"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@d7cdb8" orientation="512" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.51058424"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -473,13 +478,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/g2sagemathdata.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/G2SageMath/src/README"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/G2SageMath/src/run.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/G2SageMath/src/g2sagemath.sage"/>
 </editors>
-<item historyLabel="run" index="1">
-<position info="not_deleted" x="627" y="0"/>
-</item>
-<item historyLabel="g2sagemathdata" index="0">
-<position info="not_deleted" x="3470" y="0"/>
-</item>
 <item historyLabel="run" index="1">
 <position info="not_deleted" x="916" y="0"/>
 </item>
@@ -621,8 +621,14 @@
 <item historyLabel="run" index="10">
 <position info="not_deleted" x="627" y="0"/>
 </item>
-<item active="true" historyLabel="g2sagemathdata" index="8">
+<item historyLabel="g2sagemathdata" index="8">
 <position info="not_deleted" x="3817" y="0"/>
+</item>
+<item historyLabel="g2sagemath.sage" index="11">
+<position info="not_deleted" x="55" y="0"/>
+</item>
+<item active="true" historyLabel="g2sagemathdata" index="8">
+<position info="not_deleted" x="3743" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -648,6 +654,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="g2sagemath.sage" tooltip="G2SageMath/src/g2sagemath.sage">
+<persistable path="/G2SageMath/src/g2sagemath.sage"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README" tooltip="G2SageMath/src/README">
 <persistable path="/G2SageMath/src/README"/>
 </file>
@@ -689,9 +698,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="sample.dat" tooltip="G2SageMath/src/sample.dat">
 <persistable path="/G2SageMath/src/sample.dat"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="sample.py" tooltip="G2SageMath/src/sample.py">
-<persistable path="/G2SageMath/src/sample.py"/>
 </file>
 </mruList>
 </workbench>
