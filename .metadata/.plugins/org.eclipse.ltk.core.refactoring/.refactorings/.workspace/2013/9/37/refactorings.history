@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;G2SageMath/src/#glogin.py#&apos;" deleteContents="false" description="Delete resource &apos;G2SageMath/src/#glogin.py#&apos;" element1="/G2SageMath/src/#glogin.py#" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1378836132313"/>
-</session>
