@@ -10,6 +10,10 @@ Running G2SageMath
 	* Extract it to any directory (say ~/)
 	* Execute the following line
 		python ~/G2SageMath/src/run.py
+		
+	* Follow the instructions on the terminal
+	* A successful G2SageMath run will load your csv file to sage
+	* You may call the file by name 'file'
 
   
 Running the test-suite

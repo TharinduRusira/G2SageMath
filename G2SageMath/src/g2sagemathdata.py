@@ -81,6 +81,7 @@ class DataHandler(object):
                 #check if Sage is in the $PATH
                 if self.is_sage_installed():
                     #call sage directly
+                    self.write_init_sage()
                     return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && sage; exec bash\"'"],shell=True)
                 else: 
                     print "Sage is not found in PATH variable\nDo you wish to add sage path manually?(y/n)"
@@ -91,17 +92,17 @@ class DataHandler(object):
                         
                         #check if the path is exactly the sage path
                         if os.path.isfile(user_sage_path+"/sage"):
-                            new_path = "PATH=$PATH:%s"%user_sage_path
-                            SAGE_STARTUP_FILE= "g2sagemath.sage"
-                            bash_cmd_startup_file= "SAGE_STARTUP_FILE=%s"%SAGE_STARTUP_FILE
-                            return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && %s && sage; exec bash\"'"%(new_path,bash_cmd_startup_file)],shell=True)
+                            #Now append the code to load the file to init.sage
+                            self.write_init_sage()
                             
-                            #now reset SAGE_STARTUP_FILE to original value
-                            DEFAULT_SAGE_STARTUP_FILE_PATH="~/.sage/init.sage"
-                            bash_cmd_original_startup_file="SAGE_STARTUP_FILE=%s"%DEFAULT_SAGE_STARTUP_FILE_PATH
-                            subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s; exec bash\"'"%bash_cmd_original_startup_file],shell=False) 
-                            
-                            print  return_code 
+                            try:
+                                new_path = "PATH=$PATH:%s"%user_sage_path
+                                return_code= subprocess.call(["gnome-terminal -e 'bash -c \"cd ~ && %s && sage; exec bash\"'"%(new_path)],shell=True)
+                                print  return_code
+                            except Exception as e:
+                                print e
+                                sys.exit(16)
+                                   
                         else:
                             print "Invalid sage path\n\n"
                             sys.exit(12)
@@ -118,7 +119,7 @@ class DataHandler(object):
             except Exception as e1:
                 print e1
                 sys.exit(15)
-                
+                 
                 
     def is_sage_installed(self):
         """
@@ -153,6 +154,22 @@ class DataHandler(object):
             Completer handler for readline.set_completer
         """
         return (glob.glob(text+'*')+[None])[state]
+    
+    def write_init_sage(self):
+        HOME_PATH= os.getenv("HOME")
+        command = "import csv\nfile=csv.reader(open('/tmp/g2sagemath.csv'))\n"
+        check_line ="file=csv.reader(open('/tmp/g2sagemath.csv'))\n"
+        
+        if check_line in open('%s/.sage/init.sage'%HOME_PATH,"r").read():
+            pass
+                                
+        else:
+            startup_file = open('%s/.sage/init.sage'%HOME_PATH,"a+")
+            startup_file.write(command)
+            startup_file.flush()
+            os.fsync(startup_file)
+            startup_file.close()
+                            
             
             
             

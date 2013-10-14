@@ -42,8 +42,13 @@ class LogIn:
     
         
     def __init__(self, redirect_uri='urn:ietf:wg:oauth:2.0:oob'):
-        print '\n\nG2SageMath\nIntegrating Google spreadsheets to Sage\n' 
-        print 'Author: M.P. Tharindu Rusira Kumara (tharindurusira@gmail.com)\n\n'
+        
+        print "+--------------------------------------------------------------------+"
+        print "| G2SageMath Version 1.0, Release Date: 2013-10-14                   |"
+        print "| Integrating Google spreadsheets to Sage                            |"
+        print "| Author: M.P. Tharindu Rusira Kumara (tharindurusira@gmail.com)     |"
+        print "+--------------------------------------------------------------------+" 
+        
         #self.REDIRECT_URI = redirect_uri # for OAuth 2.0 redirection
         
         
@@ -56,26 +61,29 @@ class LogIn:
         client = gdata.spreadsheet.service.SpreadsheetsService()
         doc_client =gdata.docs.service.DocsService()
         client.ssl = True
-        client_email =raw_input("Gmail address: ")
-        client.email = client_email
-        doc_client.email=client_email
-        client_pwd = getpass.getpass("Password: ")
-        client.password = client_pwd
-        doc_client.password=client_pwd
-        
         try:
+            client_email =raw_input("Gmail address: ")
+            client.email = client_email
+            doc_client.email=client_email
+            client_pwd = getpass.getpass("Password: ")
+            client.password = client_pwd
+            doc_client.password=client_pwd
+
             client.ProgrammaticLogin()
             doc_client.ProgrammaticLogin()
             return [client,doc_client]
         except BadAuthentication:
             print "Check user name/password and retry..."
             sys.exit(1)
+        except KeyboardInterrupt:
+            print "\nAborting G2SageMath...\n"
+            sys.exit()
         except Exception as e:
             if(str(e)=="[Errno 113] No route to host"):
                 print "Network ERROR. Check your Internet connection...\n"
                 sys.exit()
             else:
-                print e
+                print "Error occured..., Aborting G2SageMath\n"
                 sys.exit(2)
  
     ''' outh2Login commented out 
