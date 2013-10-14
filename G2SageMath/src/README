@@ -28,8 +28,6 @@ Running the test-suite
 (2) Run with the Linux terminal
 	* add ./src directory to the system path before running the test cases
 	
-		import sys
-		sys.path(./src)
 	* Then run the test module
 		python Test_g2sagemathlogin
 		python Test_g2sagemathdata
@@ -40,11 +38,13 @@ Running the test-suite
 Installation
 ============
 
-The full source for the google-api-python-client library and other dependencies are included in this application, but these libraries have not been installed on your
-system. That means that this program will run from within the unzipped directory, but from nowhere else. G2SageMath is a portable collection of python scripts that 
-you do not have to install anything. 
+G2SageMath is a portable collection of Python scripts that you do not have to install anything.
+
+A part of the the google-api-python-client library and other dependencies are included in this application, but these libraries have not been installed on your
+system. That means that this program will run from within the unzipped directory, but from nowhere else.  
 
 An ambitious user may install the whole gdata-python-client library, but this is not required to run G2SageMath 
+
 The easiest way to install the client library into your system is by running easy_install:
 
   easy_install --upgrade google-api-python-client
@@ -52,11 +52,5 @@ The easiest way to install the client library into your system is by running eas
 You might need to add a 'sudo' to the beginning of that command depending on your platform.
 If you don't have easy_install you can get it by installing the setuptools package.
 
-Documentation
-=============
-
-The documentation for the google-api-python-client library is avialable here:
-
-   https://developers.google.com/api-client-library/python/start/get_started
  
 

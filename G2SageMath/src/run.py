@@ -17,17 +17,18 @@ import sys
 import gflags
 
 def main(argv):
-    # Let the gflags module process the command-line arguments
+    
+    
     l = LogIn()
     m = DataHandler()
     
     try:
-#         argv = l.FLAGS(argv)        
-#         x=l.login()
-#         y= l.show_drive(x)
-#         z=l.user_choice(y)
-#         final_details = l.read_worksheets(z)
-#         m.download_csv(data_arg=final_details)
+        argv = l.FLAGS(argv)        
+        x=l.login()
+        y= l.show_drive(x)
+        z=l.user_choice(y)
+        final_details = l.read_worksheets(z)
+        m.download_csv(data_arg=final_details)
         m.call_sage()
 
     except gflags.FlagsError, e:

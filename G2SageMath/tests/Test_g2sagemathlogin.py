@@ -237,10 +237,10 @@ class LoginTest(unittest.TestCase):
                  
         Expected result= 
     """
-    @unittest.skip("not implemented yet")       
-    def test_userchoice_output_content_0(self):
-        pass
- 
+#     @unittest.skip("not implemented yet")       
+#     def test_userchoice_output_content_0(self):
+#         pass
+#  
      
 
 

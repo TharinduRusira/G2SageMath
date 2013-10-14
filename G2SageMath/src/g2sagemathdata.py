@@ -44,7 +44,7 @@ class DataHandler(object):
             ss_number=data_arg[5]
             
             uri="https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=%s&exportFormat=csv" %(sskey)
-            print uri
+            print uri+"\n\n"
             
             #Authentication Token is required at this point
             ## doc_outh_token= doc_client.GetClientLoginToken()
@@ -53,12 +53,12 @@ class DataHandler(object):
               
             if _userplatform == 'linux' or _userplatform == 'linux2':
                 
-                print "Downloading...."
+                print "Downloading....\n"
                 directory="/tmp/g2sagemath.csv"
                 
                 doc_client.Export(entry_or_id_or_url=uri, file_path=directory,gid=wskey)
                 
-                print "Download complete..."
+                print "Download complete...\n"
                 return ["linux"]
             elif _userplatform == 'win32':
                 #download to another location
@@ -156,6 +156,9 @@ class DataHandler(object):
         return (glob.glob(text+'*')+[None])[state]
     
     def write_init_sage(self):
+        '''
+            This method writes sage init.sage file the command to load .csv file
+        '''
         HOME_PATH= os.getenv("HOME")
         command = "import csv\nfile=csv.reader(open('/tmp/g2sagemath.csv'))\n"
         check_line ="file=csv.reader(open('/tmp/g2sagemath.csv'))\n"
