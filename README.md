@@ -22,8 +22,10 @@ G2SageMath
 
 	* Linux based OS (tested on Ubuntu 12.04)
 	* Python 2.7 
-	* a sage distribution (can be installed from a pre-built binary tarball or the source code itself/ tested on sage-5.11) 
-	* [sage download](http://www.sagemath.org/download.html)
+	* a sage distribution (can be installed from a pre-built binary tarball or the source code itself/ 
+	    tested on sage-5.11) 
+
+All versions of Sage can be downloaded from [this link](http://www.sagemath.org/download.html)
 
 
 ## Running G2SageMath
@@ -34,7 +36,7 @@ G2SageMath
 	`python ~/G2SageMath/src/run.py`
 	
 * Follow the instructions on the terminal
-* A successful G2SageMath run will load your csv file to sage
+* A successful G2SageMath run will load a selected Google spreadsheet to sage in .csv format
 * This data file will be loaded into sage with identifier `file`
 * Call 'file' in the newly opened sage terminal 
 	`sage: file`
